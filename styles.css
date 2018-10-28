@@ -1,22 +1,24 @@
-*{margin: 0; padding: 0;}
+*{margin: 0px; padding: 0px;}
 
 
+body           {background-color:#F3F3F3; font-family: "Georgia","serif"; 					background-image:url(https://picsum.photos/1800/1800?random);
+        background-repeat:no-repeat; background-size:cover;}
 
-body		{background-color:#CCC;}
-#wrapper        {width:900px; margin:0 auto; padding:30px; background-color: powderblue;}
-#name		{width:400px; float:left; margin:0 0 60px 0;}
-#name h1	{font-family:arial}
-#topnav    	{width:380px; float:right; margin:30px 0 0 0;}
-#topnav ul      {text-align:right;}
-#topnav ul li   {display:inline; margin:0 0 30px 10px;}
-#topnav a       {font-size:22px; text-decoration:none; font-weight:bold;}
-#topnav a:link  {color: blue;}
-#topnav a:hover {color:#777;}
-#line           {clear:both; border:0; background-color:#CCC; height: 2px;}
-#content1 h2    {font-size:30px; margin:0 0 10px 0;}
-#content1       {width:600px; float:left; margin:30px 0 50px 0; text-align: left;}
-#content2 h3    {margin:40px 0 10px 0;}
-#rightside      {width:280px; float:right; margin:90px 0 40px 0;}
-#content2       {clear:both;}
-#footer		{clear:both;}	
+#wrapper       {width:900px; margin:0 auto; padding:30px; background-color:#FFF;}
 
+#name          {width:300px; float:left; margin:0px 0 80px 0px;}
+#name h1       {font-size:40px;}
+#topnav        {width:550px; float:right; margin:15px 0 0 0px;}
+#topnav ul     {text-align:right;}
+#topnav ul li  {display:inline; margin:0 0 0 30px;}
+#topnav a      {text-decoration:none; font-size:18px; color:#777;}
+#topnav a:link {color:#777;}
+#topnav a:hover{color:#000; border-bottom: 2px solid #777;}
+#content1      {clear:both; margin:100px 0 0 0px; border-top:1.5px solid #CCC; padding:40px 0 0 0; }
+#content1 h1   {text-align:center; letter-spacing:2px;}
+#content1 p    {color:#777; font-size:16px; line-height:1.7;}
+#banner        {clear:both;}
+#banner img    {padding-bottom:5px;}
+#content2      {clear:both; margin:60px 0 0 0px; border-bottom:2px solid #CCC; border-top:	     		    2px solid #CCC; padding:20px 0 20px 0px;}
+#footer        {clear:both; text-align:center;}
+#footer p      {color:#777;}
