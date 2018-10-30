@@ -5,10 +5,9 @@
 
 body {
 	background:#F3F3F3 url(https://picsum.photos/1800/1800?random) no-repeat fixed;
-	font-family: Georgia,serif; 
     background-size:cover;
+	font-family: Georgia, Arial, serif; 
 }
-
 
 
 #wrapper {
@@ -20,16 +19,19 @@ body {
 }
 
 
+
 #name {width:300px; 
    float:left; 
    margin:0px 0 60px 0px;
 }
 	 
+	 
 
 #name h1{
 	font-size:40px;
 }
-		
+	
+	
 		
 #topnav {
 	width:550px; 
@@ -71,7 +73,8 @@ body {
 
 	
 	
-#topnav .current{color:blue;	
+#topnav .current{
+	color:blue;	
 }
 	
 	
@@ -152,6 +155,7 @@ body {
 }
 
 
+
 #contactform textarea{
 	width: 100%;
 	height:180px;
@@ -161,6 +165,7 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 
 #contactform input[type=submit]{
     width: 20%;
