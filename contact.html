@@ -45,7 +45,7 @@
 
 
 <div id="contactform">
-<form action="#" id="cform" method="post">
+<form action="#" id="cform" method="post" onsubmit="return validation()">
 
 <fieldset>
 <legend><strong>Your Details:</strong></legend>
@@ -58,16 +58,16 @@ Title:<br>
 <select><br>
 
 First Name:<br>
-<input type="text"  name="firstname" placeholder="Your name.."><br>
+<input type="text"  name="firstname" id="firstname" placeholder="Your name.."><br>
 
 Last Name:<br>
-<input type="text" name="lastname" placeholder="Your last name..">
+<input type="text" name="lastname" id="lastname" placeholder="Your last name..">
 
 Email:<br>
-<input type="email" name="email" placeholder="Your email address.."><br>
+<input type="email" name="email" id="email" placeholder="Your email address..."><br>
 
 Telephone:<br>
-<input type="tel" name="tel" placeholder="Your telephone.."><br>
+<input type="tel" name="tel" id="firstname" placeholder="Your telephone.."><br>
 
 Sex:<br>
 <input type="radio" name="sex" value="Male">Male<br>
