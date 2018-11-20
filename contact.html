@@ -5,6 +5,9 @@
 	
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script type="text/javascript" src="js/scripts.js"></script>
+
 </head>
 
 <body>
@@ -42,7 +45,18 @@
 
 
 <div id="contactform">
-<form>
+<form action="#" id="cform" method="post">
+
+<fieldset>
+<legend><strong>Your Details:</strong></legend>
+
+Title:<br>
+<select>
+<option>Mr</option>
+<option>Mrs</option>
+<option>Miss</option>
+<select><br>
+
 First Name:<br>
 <input type="text"  name="firstname" placeholder="Your name.."><br>
 
@@ -50,12 +64,31 @@ Last Name:<br>
 <input type="text" name="lastname" placeholder="Your last name..">
 
 Email:<br>
-<input type="text" name="email" placeholder="Your email address.."><br>
+<input type="email" name="email" placeholder="Your email address.."><br>
+
+Telephone:<br>
+<input type="tel" name="tel" placeholder="Your telephone.."><br>
+
+Sex:<br>
+<input type="radio" name="sex" value="Male">Male<br>
+<input type="radio" name="sex" value="Female">Female<br>
+<input type="radio" name="sex" value="Female">Other<br><br>
+
+Reason for Contact:<br>
+<input type="checkbox" name="checkbox" value="checkbox">I have a question<br>
+<input type="checkbox" name="checkbox" value="checkbox">I have a suggestion<br>
+<input type="checkbox" name="checkbox" value="checkbox">I have a query<br>
+<input type="checkbox" name="checkbox" value="checkbox">Other<br><br>
+
+
 
 <p>Message:</p>
-<textarea></textarea><br>
+<textarea name="message" placeholder="Write something.."></textarea><br>
 
-<input type="submit" value="Submit"><br>
+<input type="submit" value="Submit" onClick="submitForm()">
+<input type="reset" value="Reset">
+</fieldset>
+
 </form>
 </div>
 
