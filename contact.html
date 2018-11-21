@@ -45,7 +45,7 @@
 
 
 <div id="contactform">
-<form action="#" id="cform" method="post" onsubmit="return validation()">
+<form action="#" id="cform" method="post" onsubmit="return validateForm()">
 
 <fieldset>
 <legend><strong>Your Details:</strong></legend>
@@ -67,7 +67,7 @@ Email:<br>
 <input type="email" name="email" id="email" placeholder="Your email address..."><br>
 
 Telephone:<br>
-<input type="tel" name="tel" id="firstname" placeholder="Your telephone.."><br>
+<input type="tel" name="tel" id="tel" placeholder="Your telephone.."><br>
 
 Sex:<br>
 <input type="radio" name="sex" value="Male">Male<br>
@@ -85,8 +85,8 @@ Reason for Contact:<br>
 <p>Message:</p>
 <textarea name="message" placeholder="Write something.."></textarea><br>
 
-<input type="submit" value="Submit" onClick="submitForm()">
-<input type="reset" value="Reset">
+<input type="submit" value="Submit" id="reset">
+<input type="reset" value="Reset" id="reset" onClick="promptMessage()">
 </fieldset>
 
 </form>
