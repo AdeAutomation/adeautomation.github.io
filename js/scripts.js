@@ -18,14 +18,9 @@ if (firstname == "" || lastname == "" || email == "") {
 
 
 
-
  function promptMessage(){
 	 var person = prompt("Please confirm your name before resetting form");
 	 if(person != null){
 		 document.getElementById("submit").innerHTML = person;
-		 
-	 }
 	 
-
-}
-
+ }
