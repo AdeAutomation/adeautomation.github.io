@@ -119,7 +119,7 @@ alert("This is a calculator. Click OK to continue");
 /**
 This function uses switch-case method to peform arithmetic operations and validate input
 **/
-function switchCase(){
+function calculateSwitchCase(){
 
 alert("This is a calculator. Click OK to continue");
 		

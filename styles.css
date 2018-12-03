@@ -95,4 +95,8 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 #contactform fieldset               {padding:15px; background-color:#f3f3f3;}
 
 
+#calculator   {width: 350px; margin:0 auto;}
+
+
+
 #calculator button          {padding:10px; background-color:green; color:#fff; border:none; border-radius:4px;}
