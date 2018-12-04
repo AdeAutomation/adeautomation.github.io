@@ -7,14 +7,29 @@ function validateForm(){
 var firstname = document.getElementById("firstname").value;
 var lastname = document.getElementById("lastname").value;
 var email = document.getElementById("email").value;
-var tel = document.getElementById("tel").value;
-var telInput = tel.replace(/[^\d]/g, '');
+
 
 if (firstname == "" || lastname == "" || email == "") {
 		alert("Please ensure you have entered your names and a valid email address");
 		return false;
 	}
+	
+var tel = document.getElementById("tel").value;	
+var regex = /^\d{10}$/;
+if(tel.match(regex))
+{
+return true;
 }
+else
+{
+alert("Please enter a valid mobile number");
+return false;
+}
+
+	
+}
+
+
 
 
 
