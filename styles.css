@@ -8,13 +8,16 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 
 
 
-#name                               {width:300px; float:left; margin:0px 0 60px 0px;}
-	 
+#name                               {width:200px; float:left; margin:0px 0 60px 0px; }
 	 
 
-#name h1                            {font-size:40px;}
+#name img                            {float:left;}	 
+
+#name h1                            {float:right; font-size:40px;}
+
+
 	
-	
+
 	  	
 #topnav                             {width:550px; float:right; margin:15px 0 0 0px;}
 
@@ -40,10 +43,13 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 	
 	
 #topnav .current                    {color:blue;}
+
+
+#banner                             {clear:both;}
 	
 	
 	
-#content1                           {clear:both; margin:60px 0 0 0px; border-top:1.5px solid lightgrey; padding:40px 0 0 0;}
+#content1                           {clear:both; margin:60px 0 0 0px; padding:20px 0 0 0;}
 	
 	
 	
@@ -55,7 +61,7 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 	
 	
 	
-#banner                             {clear:both;}
+
 
 
 	
@@ -63,18 +69,31 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 	
 	
 	
-#content2                           {clear:both; margin:60px 0 0 0px; border-bottom:2px solid #CCC; border-top:2px solid #CCC; padding:20px 0 20px 0px;}
+#content2                           {width:350px; height:100px; float:left; border:2px solid #8c2332; padding:20px; margin:0 0 50px 0; }
+
+#content2 a      {text-align:right;}
+
+#content3                           {width:350px; height:100px; float:right; border:2px solid #8c2332; padding:20px; margin:0 0 50px 0; }
 	
 	
 	
-#footer                             {clear:both; text-align:center;}
+#footer                             {clear:both;  height:60px; margin:60px 0 0 0px; background-color:#8c2332; padding:30px 180px; }
 	
 	
 	
-#footer p                           {color:#777;}
+#footer h2                          {float:left; color:#fff; padding:10px 0px 0 0;}
+
+
+#footer  i                          {float:left; color:#fff; margin-left: 70px; padding:00px 0px 0 0;}
 
 	
-	
+#footer  p                          { color:#fff; text-align:center;}	
+
+
+
+/*
+Contact Page starts here
+*/
 #contactcontent1 h1                 {margin-top:20px; text-align:center;}
 	
 
