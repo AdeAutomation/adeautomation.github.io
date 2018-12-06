@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-	<title>Application Manager</title>
+	<title>Login</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -13,44 +13,68 @@
 
 <div id="name">
 <img src="images/sitelogo.png">
-<h2>UNIVERSITY <cite>of</cite> LIFE</h2>
+<h2>UNIVERSITY <cite>of</cite> ADE</h2>
 </div>
 
 
 
 <div id="topnav">
 <ul>
-<li><a class="current" href="index.html">Home</a></li>
-<li><a href="login.html">Login</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="login.html" class="current">Login</a></li>
 <li><a href="register.html">Register</a></li>
-<li><a href="register.html">My Account</a></li>
+<li><a href="#">My Account</a></li>
 <ul/>
 </div>
 
 
-<div id="banner">
+<div id="loginbanner">
 <img src="https://picsum.photos/900/300?random">
-
 </div>
 
 
 
-<div id="content1">
-<h1>Application Management</p><br>
-</p><br>
+<div id="logincontent">
+<h1>Login</h1><br>
+<p>To log in, please enter your email address and password.</p><br><br>
 </div>
 
 
-<div id="content2">
-<h1>Returning Users:</h1><br>
-<a href="login.html">Log in to continue an application</a>
+
+<div id="loginform">
+<form action="#" id="cform" method="post" onsubmit="return validateForm()">
+
+Email Address:<br>
+<input type="email" name="email" id="email" placeholder="Your email address..."><br>
+
+Password:<br>
+<input type="password" name="tel" id="tel" placeholder="Your password.."><br>
+<input type="submit" value="Login" id="submit">
+
+<a href="#"><strong>Forgot Your Password?</strong></a>
+</form>
 </div>
 
 
-<div id="content3">
-<h1>First-time Users:</h1><br>
-<a href="register.html">Register to create an account</a>
-</div><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div id="footer">
