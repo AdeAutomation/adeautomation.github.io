@@ -8,7 +8,7 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 
 
 
-#name                               {width:200px; float:left; margin:0px 0 60px 0px; }
+#name                               {width:300px; float:left; margin:0px 0 60px 0px; }
 	 
 
 #name img                            {float:left;}	 
@@ -146,3 +146,26 @@ Register Page starts here
 
 
 #calculator button          {padding:10px; background-color:green; color:#fff; border:none; border-radius:4px;}
+
+
+
+
+/*
+Register Page starts here
+*/
+
+
+#userandlogout     {width:500px; float:right;}	
+
+#user     {width:320px; float:left;}
+
+#user p    {text-align:right; font-size:18px; padding:18px 18px;}
+
+
+
+#topnavmyaccount              {width:120px; float:right; height:23px; margin:0px 0 0 0px; background-color:black; padding:21px 12px 17px 12px;}
+
+#topnavmyaccount a                           { text-align:right; color:#fff; font-size:17px; text-decoration:none; font-weight: bold;}
+
+#topnavmyaccount i                           { color:#fff; }
+

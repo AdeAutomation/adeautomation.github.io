@@ -4,6 +4,9 @@
 	<title>Login</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	
+	<script src="js/scripts.js"></script>
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -12,7 +15,7 @@
 
 
 <div id="name">
-<img src="images/sitelogo.png">
+<img src="images/sitelogo.png" alt="University of Ade">
 <h2>UNIVERSITY <cite>of</cite> ADE</h2>
 </div>
 
@@ -23,7 +26,7 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="login.html" class="current">Login</a></li>
 <li><a href="register.html">Register</a></li>
-<li><a href="#">My Account</a></li>
+<li><a href="login.html">My Account</a></li>
 <ul/>
 </div>
 
@@ -42,10 +45,10 @@
 
 
 <div id="loginform">
-<form action="myaccount.html" id="cform" method="post" onsubmit="return validateForm()">
+<form action="myaccount.html" id="cform" method="post" onsubmit="return validateLoginForm()">
 
 Email Address:<br>
-<input type="email" name="email" id="email" placeholder="Your email address..."><br>
+<input type="email" name="loginemail" id="loginemail" placeholder="Your email address..."><br>
 
 Password:<br>
 <input type="password" name="password" id="password" placeholder="Your password.."><br>
