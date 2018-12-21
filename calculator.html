@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Calculator</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script src="js/scripts.js"></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="icon" type="image/png" href="favicon.ico">
+</head>
+
+<body onload="calculator()">
+<div id="wrapper">
+
+
+<div id="name">
+<img src="images/sitelogo.png" alt="University of Ade">
+<h2>UNIVERSITY <cite>of</cite> ADE</h2>
+</div>
+
+
+
+<div id="topnav">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a class="current" href="calculator.html">Calculator</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="login.html">My Account</a></li>
+<ul/>
+</div>
+
+
+<div id="banner">
+<img src="https://picsum.photos/900/300?random">
+</div>
+
+
+
+<div id="calculatorcontent1">
+<h1>Calculate your tuition fees</h1><br>
+
+<p>Our revised tuition fees come into effect from winter 2018. The fees are listed below and accurate as of the date of publication but are subject to change without prior notice.<br><br>We have included on this page a calculator to help you with calculating your tuitions fees. Please feel free to use it. Choose your intended number of credit hours and multiply by fees quoted to get your total tuition fees per session</p><br>
+
+<h3>Tuition for Undergraduate Programs, Graduate and Professional Schools</h3>
+</div>
+
+
+<div id="table1">
+
+<table id="feestable1">
+<tr>
+<td><strong>Credit Hours</strong></td>
+<td><strong>Fees</strong></td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>€1,072</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>€2,444</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>€3,816</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>€5,188</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>€6,560</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>€7,932</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>€9,304</td>
+</tr>
+
+</table>
+</div>
+
+
+
+
+<div id="table2">
+
+<table id="feestable2">
+<tr>
+<td><strong>Credit Hours</strong></td>
+<td><strong>Fees</strong></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>€10,676</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>€12,048</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>€13,420</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>€14,792</td>
+</tr>
+
+<tr>
+<td>12</td>
+<td>€16,164</td>
+</tr>
+
+<tr>
+<td>13</td>
+<td>€17,100</td>
+</tr>
+
+<tr>
+<td>Over 13</td>
+<td>€17,100 + $1,000 Per Hour over 13</td>
+</tr>
+
+</table>
+</div>
+
+
+
+
+<div id="table3">
+
+<table id="feestable3">
+<tr>
+<td>Technology Fee</td>
+<td>$4 per credit hour</td>
+</tr>
+
+<tr>
+<td>Graduate Activity Fee</td>
+<td>€110/quarter</td>
+</tr>
+
+<tr>
+<td>College Pass</td>
+<td>€35</td>
+</tr>
+
+<tr>
+<td>Music Fee</td>
+<td>€95/quarter</td>
+</tr>
+
+<tr>
+<td>Health Services Fee</td>
+<td>€200/quarter</td>
+</tr>
+
+<tr>
+<td>English Language Center Program Fee</td>
+<td>€30/quarter (International students only)</td>
+</tr>
+
+<tr>
+<td>Sports Centre Fee</td>
+<td>€150/semester</td>
+</tr>
+
+<tr>
+<td>Undergraduate Registration Fee</td>
+<td>€50/session</td>
+</tr>
+
+<tr>
+<td>International Studies Student Fee</td>
+<td>€100/session(graduate students only)</td>
+</tr>
+
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="calculator">
+    <!-- Screen and clear key -->
+    <div class="top">
+        <span class="clear">C</span>
+        <div class="screen"></div>
+    </div>
+    
+    <div class="keys">
+        <!-- operators and other keys -->
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+        <span class="operator">+</span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+        <span class="operator">-</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span class="operator">÷</span>
+        <span>0</span>
+        <span>.</span>
+        <span class="eval">=</span>
+        <span class="operator">x</span>
+    </div>
+</div>
+
+
+
+
+<div id="calculatorcontent2">
+<h2>We have a more subtle calculator below. If you prefer, you can use this one</h2><br>
+</div>
+
+
+<div id="calculator2">
+ Enter first Number:<br><input type="text" id="num1"><br>
+ <select id="operator">
+ <option>+</option>
+ <option>-</option>
+ <option>*</option>
+ <option>/</option>
+ </select> <br><br>
+ Enter second number:<br> <input type="text" id="num2">
+ <button onclick="calculate()">=</button><br>
+Result:<br> <input type="text" id="result"><br><br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+<h2>Follow Us:</h2>  
+<a href="https://www.facebook.com/rock.master.54" target="_blank" title="Follow us on facebook"><i class="fa fa-facebook-official fa-2x"></a></i>
+ &nbsp
+
+<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-twitter fa-2x"></a></i>
+
+<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-instagram fa-2x"></a></i><br><br><br>
+
+<p>Copyright © 2018 | All Rights Reserved</p>
+
+</div>
+
+</div>
+</body>
+</html>

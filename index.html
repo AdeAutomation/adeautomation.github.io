@@ -4,11 +4,17 @@
 	<title>Application Manager</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="icon" type="image/png" href="favicon.ico">
+	
+	
 </head>
+
+
 
 <body>
 <div id="wrapper">
@@ -24,6 +30,7 @@
 <div id="topnav">
 <ul>
 <li><a class="current" href="index.html">Home</a></li>
+<li><a href="calculator.html">Calculator</a></li>
 <li><a href="login.html">Login</a></li>
 <li><a href="register.html">Register</a></li>
 <li><a href="login.html">My Account</a></li>
@@ -31,9 +38,16 @@
 </div>
 
 
-<div id="banner">
-<img src="https://picsum.photos/900/300?random">
-
+<div id="slideshow">
+   <div>
+     <img src="https://picsum.photos/900/300">
+   </div>
+   <div>
+     <img src="https://picsum.photos/900/300?random">
+   </div>
+   <div>
+     Pretty cool eh? This slide is proof the content can be anything.
+   </div>
 </div>
 
 
@@ -54,6 +68,29 @@
 <h1>First-time Users:</h1><br>
 <a href="register.html">Register to create an account</a>
 </div><br><br><br>
+
+
+
+<div id="loopgame">
+<h2>Before getting started with your application, play our loop game. It's fun</h2><br>
+<p>To play, create of number sequence in your mind. Enter the first number of that sequence into the First Number field below. Enter the last number of the sequence into the Last Number field, then click the PLAY! button.<br><br>You will see an amazing result. Our magical loop engine will create a multiplication table genetared from the input numbers, continuously until the result of the multiplacation reaches the last number in your sequence. If the last number is a multiple of the first number, the highest number in the multiplaction table will be the last number you entered, otherwise, it will be next lower multiple number in the sequence. Amazing, is'nt it. PLAY NOW!  </p><br>
+
+  Enter X:<br><input type="text" id="x"><br><br>
+  Enter Y:<br> <input type="text" id="y"><br><br>
+<button onClick="loopNumbers()">PLAY!</button>
+<p id="demo">THIS IS WHAT I INITIALLY HAD</p>
+</div>
+
+
+
+<div id="campustour">
+<h2>Why choose us?</h2><br>
+<p>Why study at the University of Ade, watch our video to discover the unique educational experience that awaits you. We are consistently ranked in the top 5 percentile amonst world universities.</p><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7rO4mPTaGGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
 
 
 <div id="footer">

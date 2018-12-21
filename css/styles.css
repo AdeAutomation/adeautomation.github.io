@@ -27,7 +27,7 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 
 
 
-#topnav ul li                       {display:inline; margin:0 0 0 30px;}
+#topnav ul li                       {display:inline; margin:0 0 0 20px;}
 
 
 #topnav a                           {text-decoration:none; font-size:18px; color:#777;}
@@ -45,11 +45,9 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 #topnav .current                    {color:blue;}
 
 
-#banner                             {clear:both;}
 	
 	
-	
-#content1                           {clear:both; margin:60px 0 0 0px; padding:20px 0 0 0;}
+#content1                           {clear:both; margin:350px 0 0 0px; padding:20px 0 0 0;}
 	
 
 
@@ -58,8 +56,27 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 	
 	
 	
-#banner img                         {padding-bottom:5px;}
-	
+#slideshow {
+	clear:both;
+  margin: 0px auto;
+  position: relative;
+ 
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+
+
+
+
+
 	
 	
 #content2                           {width:350px; height:100px; float:left; border:2px solid #8c2332; padding:20px; margin:0 0 50px 0; }
@@ -67,7 +84,29 @@ body                                {background:#F3F3F3 url(https://picsum.photo
 #content2 a      {text-align:right;}
 
 #content3                           {width:350px; height:100px; float:right; border:2px solid #8c2332; padding:20px; margin:0 0 50px 0; }
+
+
+#loopgame
+	{
+	float:left;
+	margin:100px 0 100px 0;				
+	}
+
 	
+#loopgame input[type=text]       
+{width: 20%;
+ padding: 12px 20px;
+ margin: 8px 0; border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+
+#campustour		
+{
+	clear:both;
+}
+
+#loopgame button {width: 20%; padding: 12px 20px; margin: 8px 0 8px 0px; color:black; background-color:#ccc; border: 1px solid #ccc; border-radius: 4px;}
 	
 	
 #footer                             {clear:both;  height:60px; margin:60px 0 0 0px; background-color:#8c2332; padding:30px 180px; }
@@ -151,7 +190,7 @@ Register Page starts here
 
 
 /*
-Register Page starts here
+My Account Page starts here
 */
 
 
@@ -169,3 +208,284 @@ Register Page starts here
 
 #topnavmyaccount i                           { color:#fff; }
 
+#timetable 		{clear:both; width:70%; margin:0 auto; margin-top:100px;}
+
+#timetable h1		{color:#000;}
+
+#mytable td			{padding:7px; text-align:center;}
+
+.break	{;
+    font-size: 30px;
+    letter-spacing: 00px;
+	white-space: pre;}
+
+
+	
+	/*
+Calculator Page starts here
+*/
+	
+	#calculatorcontent1		
+	{
+		clear:both;
+		margin-top:50px;	
+	}
+	
+	
+		
+	#calculatorcontent1	h3	
+	{
+		background-color:#0ab3e3;
+        padding: 6px;
+        color: #FFF;
+        font-weight:normal;
+        font-size: 14px;
+        margin-bottom:20px;		
+	}
+	
+	#table1
+	{
+		width:420px;
+		float:left;
+		margin-bottom:100px;
+	
+		
+	}
+	
+	
+	#feestable1
+	{
+	width:100%;
+	border:1px solid #ccc;
+	border-collapse:collapse;
+	
+	}
+	
+	
+	#feestable1 td
+	{
+	
+	border:1px solid #ccc;	
+	padding:2px 0 2px 20px;	
+	}
+	
+	
+	
+	
+	#table2
+	{
+		width:420px;
+		float:right;
+		margin-bottom:100px;
+		
+	
+		
+	}
+	
+	
+	#feestable2
+	{
+	width:100%;
+	border:1px solid #ccc;
+	border-collapse:collapse;	
+	}
+	
+#feestable2 td
+	{
+	
+	border:1px solid #ccc;	
+	padding:2px 10px 2px 20px;	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#calculator {
+	clear:both;
+	width: 300px;
+	height: auto;
+	
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	
+	background: #9dd2ea;
+	background: linear-gradient(#ccc, #ccc);
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Top portion */
+.top span.clear {
+	float: left;
+}
+
+/* Inset shadow on the screen to create indent */
+.top .screen {
+	height: 40px;
+	width: 190px;
+	
+	float: left;
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	
+	/* Typography */
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+/* Clear floats */
+.keys, .top {overflow: hidden;}
+
+/* Applying same to the keys */
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	
+	cursor: pointer;
+	
+	width: 66px;
+	height: 36px;
+	
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	
+	margin: 0 7px 11px 0;
+	
+	color: #888;
+	line-height: 36px;
+	text-align: center;
+	
+	/* prevent selection of text inside keys */
+	user-select: none;
+	
+	/* Smoothing out hover and active states using css3 transitions */
+	transition: all 0.2s ease;
+}
+
+/* Remove right margins from operator keys */
+/* style different type of keys (operators/evaluate/clear) differently */
+.keys span.operator {
+	background: #FFF0F5;
+	margin-right: 0;
+}
+
+.keys span.eval {
+	background: #f1ff92;
+	box-shadow: 0px 4px #9da853;
+	color: #888e5f;
+}
+
+.top span.clear {
+	background: #ff9fa8;
+	box-shadow: 0px 4px #ff7c87;
+	color: white;
+}
+
+/* Some hover effects */
+.keys span:hover {
+	background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
+
+.keys span.eval:hover {
+	background: #abb850;
+	box-shadow: 0px 4px #717a33;
+	color: #ffffff;
+}
+
+.top span.clear:hover {
+	background: #f68991;
+	box-shadow: 0px 4px #d3545d;
+	color: white;
+}
+
+/* Simulating "pressed" effect on active state of the keys by removing the box-shadow and moving the keys down a bit */
+.keys span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.keys span.eval:active {
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top span.clear:active {
+	top: 4px;
+	box-shadow: 0px 0px #d3545d;
+}
+
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+		#calculatorcontent2		
+	{
+		clear:both;
+		
+	}
+	
+	
+	#calculator2
+	{
+		
+	width: 325px;
+	height:264px;
+	margin: 10px auto;
+	border:2px solid #8c2332;
+	padding: 20px 20px 9px;
+	}
+		
+		
+		
+
+	
+	#calculator2 input[type=text]       
+{width: 50%;
+ padding: 8px 20px;
+ margin: 8px 0; border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+
+}
+
+#calculator2 select		
+{
+	padding:5px;
+	border-radius: 4px;
+}	
+	
+	#calculator2 button
+	{
+	width: 10%;
+	padding:5px;
+	border-radius: 4px;
+		
+	}	
+	
+	
+	
+	

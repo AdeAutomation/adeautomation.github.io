@@ -4,10 +4,12 @@
 	<title>My Account</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	
 	<script src="js/scripts.js"></script>
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="favicon.ico">
 </head>
 
 <body onload="loggedInUser()">
@@ -38,18 +40,85 @@
 </div>
 
 
+<div id="timetable">
+<h1>YOUR WINTER TERM TIME TABLE</h1>
+<table id="mytable" border="2"  align="center">
+<tr>
+ <td align="center">
+ <td>9:00-10:00
+ <td>10:00-11:00
+ <td>11:00-12:00
+ <td>12:00-13:00
+ <td>13:30-14:30
+ <td>14:30-15:30
+ <td>15:30-16:30
+ <td>16:30-17:30
+</tr>
 
+<tr>
+ <td>MONDAY</td>
+ <td><font color="blue">CS1</td>
+ <td><font color="green">CS2</td>
+ <td><font color="red">CS3</td>
+ <td><font color="purple">CS4</td>
+ <td rowspan="6" class="break">B<br>R<br>E<br>A<br>K</td>
+ <td><font color="gray">CS5</td>
+ <td><font color="brown">CS6</td>
+ <td>Class Quiz</td>
+</tr>
 
+<tr>
+ <td>TUESDAY
+  <td><font color="purple">CS4</td>
+ <td><font color="green">CS2</td>
+ <td><font color="red">CS3</td>
+ <td>---</td>
+ <td><font color="purple">CS4</td>
+ <td><font color="gray">CS5</td>
+ <td>Reading</td>
+</tr>
 
+<tr>
+ <td>WEDNESDAY </td>
+ <td><font color="blue">CS1</td>
+ <td><font color="green">CS2</td>
+ <td><font color="purple">CS4</td>
+ <td>---</td>
+ <td colspan="3" align="center"><font color="green"> laboratory</td>
+</tr>
 
+<tr>
+ <td>THURSDAY
+ <td><font color="green">CS2</td>
+ <td><font color="green">CS2</td>
+ <td><font color="red">CS3</td>
+ <td>---</td>
+ <td><font color="purple">CS4</td>
+ <td><font color="gray">CS5</td>
+ <td>Reading</td>
+</tr>
 
+<tr>
+ <td>FRIDAY</td>
+ <td><font color="blue">CS1</td>
+ <td><font color="green">CS2</td>
+ <td><font color="red">CS3</td>
+<td><font color="gray">CS5</td>
+ <td><font color="purple">CS4</td>
+ <td><font color="gray">CS5</td>
+ <td>Class Quiz</td>
+</tr>
 
-
-
-
-
-
-
+<tr>
+ <td>SATURDAY</td>
+ <td><font color="blue">CS1</td>
+ <td colspan="3" align="center">Symposium
+ <td><font color="green">CS2</td>
+ <td><font color="red">CS3</td>
+ <td>C/A</td>
+</tr>
+</table>
+</div>
 
 
 
