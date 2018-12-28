@@ -10,6 +10,20 @@
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" type="image/png" href="favicon.ico">
+	
+	<script>
+	$("#loginslideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#loginslideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#loginslideshow');
+},  3000);
+</script>
+
 </head>
 
 <body>
@@ -34,8 +48,16 @@
 </div>
 
 
-<div id="loginbanner">
-<img src="https://picsum.photos/900/300?random">
+<div id="loginslideshow">
+   <div>
+     <img src="images/Grad.jpg">
+   </div>
+   <div>
+     <img src="images/Grad1.jpg">
+   </div>
+   <div>
+     <img src="https://picsum.photos/900/300?random">
+   </div>
 </div>
 
 

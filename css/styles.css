@@ -276,10 +276,7 @@ Calculator Page starts here
 	{
 		width:420px;
 		float:right;
-		margin-bottom:100px;
-		
-	
-		
+		margin-bottom:100px;	
 	}
 	
 	
@@ -297,12 +294,39 @@ Calculator Page starts here
 	padding:2px 10px 2px 20px;	
 	}
 	
+	#table3
+	{
+		
+		clear:both;
+		margin-bottom:100px;	
+	}
 	
 	
+	#feestable3
+	{
+	width:100%;
+	border:1px solid #ccc;
+	border-collapse:collapse;	
+	}
+	
+	#feestable3 td
+	{
+	
+	border:1px solid #ccc;	
+	padding:2px 10px 2px 20px;	
+	}
 	
 	
+#table3 h3
+{
+background-color:#0ab3e3;
+        padding: 6px;
+        color: #FFF;
+        font-weight:normal;
+        font-size: 14px;
+        margin-bottom:20px;		
 	
-	
+}
 	
 	
 	
