@@ -130,7 +130,30 @@ login Page starts here
 */
 
 
-#loginbanner     {margin:0px 0 50px 0;}
+#loginslideshow {
+	clear:both;
+  margin: 0px auto;
+  position: relative;
+ 
+}
+
+#loginslideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+#logincontent h1 
+  {
+	font-size:40px;
+	margin-top:350px;
+  }
+
+
+
 
 #loginform input[type=email], [type=password], [type=submit] {width:20%; padding:12px 20px; margin: 8px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
 
@@ -139,7 +162,7 @@ login Page starts here
 
 #logincontent                     {clear:both:}
 
-#logincontent h1                    {font-size:40px;}
+
 
 
 #logincontent p                   {  padding:12px; background-color:#e6efc2; border-left:5px solid #529214;}
@@ -218,10 +241,33 @@ My Account Page starts here
     font-size: 30px;
     letter-spacing: 00px;
 	white-space: pre;}
-
+	
+	
+	
+#myaccountcontent	h3	
+	{
+		background-color:#0ab3e3;
+        padding: 6px;
+        color: #FFF;
+        font-weight:normal;
+        font-size: 14px;
+        margin-bottom:20px;		
+	}	
+	
+	
+	.rule
+	{
+		border:0.5px solid #8c2332;
+	}
+	
+	
+.cal
+	{
+	text-decoration:underline;
+	}
 
 	
-	/*
+/*
 Calculator Page starts here
 */
 	
