@@ -35,18 +35,52 @@ function validateLoginForm()
     var email = document.getElementById("loginemail").value;
 	var password = document.getElementById("password").value;
 	localStorage.setItem("storageName", email);
+	var limit = 20;
+	
 	
 	
 
-if (email == "" || password == "") 
+if (email == "" || password == "" || email.length > limit) 
     {
-		alert("Username and/or password cannot be blank");
+		alert("Please note: Username and/or password cannot be blank and username cannot be more than 20 characters");
 		return false;
 	}
 
  return true;
-
+ 
 }
+
+
+
+// Function to check letters and numbers
+function alphanumeric()
+{
+ var regex = /^[0-9a-zA-Z]+$/;
+ var password = document.getElementById("password").value;
+ 
+ if(password.match(regex)) 
+  {
+   return true;
+  }
+else
+  { 
+   alert("message"); 
+   return false; 
+  }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -60,7 +94,7 @@ document.getElementById("loggedinuser").innerHTML = "Welcome, " + localStorage.g
 
 
 /**
-This function validates contact form inputs
+This function validates registration form inputs
 **/
 
 function validateForm()
