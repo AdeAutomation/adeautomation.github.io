@@ -24,6 +24,7 @@ INDEX PAGE - This function is used in the loop game to display multiplation tabl
  }
 
 
+ 
 
 
 /**
@@ -52,10 +53,11 @@ if (email == "" || password == "" || email.length > limit)
 
 
 
-// Function to check letters and numbers
+
+// This function validates that the passwoed field on login page only accepts alphanumeric inputs
 function alphanumeric()
 {
- var regex = /^[0-9a-zA-Z]+$/;
+ var regex = /(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,10})$/;
  var password = document.getElementById("password").value;
  
  if(password.match(regex)) 
@@ -64,21 +66,11 @@ function alphanumeric()
   }
 else
   { 
-   alert("message"); 
+   alert("Your password must be between 8 and 10 characters, contains at least one digit and one alphabetic, and must not contain special characters"); 
    return false; 
   }
   }
   
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -275,22 +267,6 @@ document.getElementById("result").value = result;
 
 
 
-
-
-
-/**
-This jquery function adds a slide show effect to the banners
-**/
-$("#slideshow > div:gt(0)").hide();
-
-setInterval(function() { 
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  3000);
 
 
 

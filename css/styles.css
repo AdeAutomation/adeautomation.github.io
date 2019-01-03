@@ -192,6 +192,7 @@ body
 	clear:both;
  }
  
+ 
 
 #loopgame button
  {
@@ -204,6 +205,7 @@ body
 	border-radius: 4px;
  }
 
+ 
  
  #footer                             
  {
@@ -296,6 +298,30 @@ login Page starts here
 	box-sizing: border-box;
  }
 
+ 
+ 
+ #loginreset
+ {
+	float:left;
+	width:450px;
+	margin-bottom:100px;
+ }
+ 
+ 
+ 
+  #submit
+ {
+	float:left;
+ }
+ 
+ 
+ 
+ #reset
+ {
+	float:right;
+ }
+ 
+ 
  
  
 #logincontent
