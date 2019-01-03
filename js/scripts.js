@@ -54,7 +54,7 @@ if (email == "" || password == "" || email.length > limit)
 
 
 
-// This function validates that the passwoed field on login page only accepts alphanumeric inputs
+// This function validates that the password field on login page only accepts alphanumeric inputs
 function alphanumeric()
 {
  var regex = /(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,10})$/;
@@ -66,12 +66,67 @@ function alphanumeric()
   }
 else
   { 
-   alert("Your password must be between 8 and 10 characters, contains at least one digit and one alphabetic, and must not contain special characters"); 
+   alert("Your password must be between 8 and 10 characters, contains at least one digit and one alphabet, and must not contain special characters. If your password is correct, ensure that your username is also correct"); 
    return false; 
   }
   }
   
 
+  
+  
+  
+ // This function validates that the passwoed field on login page only accepts alphanumeric inputs 
+  function validateLoginCredentials()
+{
+  
+ 
+			var c = "xyzabc";
+			var d = c.substring(1,3);
+			console.debug("value of d is : "+d);
+			
+			var url_string = window.location.href;
+			console.log("search: "+window.location.search);
+			console.log("search: "+window.location.search.substring(0));
+			console.log("search: "+window.location.search.substring(1));
+			var params=window.location.search.substring(1); 
+			var fullUserName = params.split("&")[0];
+			var fullPassword = params.split("&")[1];
+			console.log("User: "+fullUserName);
+			console.log("password: "+fullPassword);
+			var userName = decodeURIComponent(fullUserName.split("=")[1]);
+			var password = fullPassword.split("=")[1];
+			console.log("User Name : "+userName);
+			console.log("Password : "+password);
+
+			if(userName =="testuser@email.com" && password == "password123")
+			{
+			
+				document.getElementById("loginemail").innerHTML = "Welcome, " + userName;
+				
+				
+				$(document.body).show();
+			}
+			else{
+					window.location = "login.html?invalidCredentials=true";
+			}
+		
+  
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
