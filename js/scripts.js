@@ -72,8 +72,16 @@ else
   }
   
 
-  
-  
+  function loginPageLoad()
+  {
+	  var url_string = window.location.href;
+	  var params=window.location.search.substring(1); 
+	  var invalidCredentials = params.split("&")[0];
+	  if(invalidCredentials){
+		  $('.error').show();
+		  $('.info').hide();
+	  }
+  }
   
  // This function validates that the passwoed field on login page only accepts alphanumeric inputs 
   function validateLoginCredentials()
@@ -98,7 +106,7 @@ else
 			console.log("User Name : "+userName);
 			console.log("Password : "+password);
 
-			if(userName =="testuser@email.com" && password == "password123")
+			if(userName =="testuser@email.com" && password == "password12")
 			{
 			
 				document.getElementById("loginemail").innerHTML = "Welcome, " + userName;
