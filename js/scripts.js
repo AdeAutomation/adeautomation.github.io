@@ -2,11 +2,11 @@
 
 
 /**
-INDEX PAGE - This function is used in the loop game to display multiplation table for input numbers
+INDEX PAGE - This function is used in the loop game to display multiplication table for input numbers
 **/
 
 
- function loopNumbers()
+  function add()
  {
   var x = parseInt(document.getElementById("x").value);
   var y = parseInt(document.getElementById("y").value);
@@ -22,7 +22,6 @@ INDEX PAGE - This function is used in the loop game to display multiplation tabl
   }
   document.getElementById("demo").innerHTML = totalOutput;
  }
-
 
  
 
