@@ -17,9 +17,10 @@
 
 
 <div id="name">
-<img src="sitelogo.png" alt="University of Ade">
-<h2>UNIVERSITY <cite>of</cite> ADE</h2>
+<a href="index.html"><img src="sitelogo.png" alt="University of Ade"></a>
+<img src="images/uniofade.png" alt="University of Ade"></a>
 </div>
+
 
 
 
@@ -35,7 +36,7 @@
 
 
 <div id="banner">
-<img src="https://picsum.photos/900/300?random">
+<img src="images/joinus.jpeg" alt="Person holding white paper">
 
 </div>
 
@@ -48,7 +49,7 @@
 
 
 <div id="contactform">
-<form action="myaccount.html" id="cform" method="post" onsubmit="return validateForm()">
+<form action="login.html" id="cform" method="get" onsubmit="return validateForm()">
 
 <fieldset>
 <legend><strong>Your Details:</strong></legend>
@@ -370,8 +371,11 @@ Who will pay for your studies? You may select more than one option:<br>
 <p>Message:</p>
 <textarea name="message" placeholder="Write any information you will like us to know with regards to your registration.."></textarea><br>
 
+<div id="regsubmitpanel">
 <input type="submit" value="Submit" id="reset">
 <input type="reset" value="Reset" id="reset" onClick="promptMessage()">
+</div>
+
 </fieldset>
 
 </form>

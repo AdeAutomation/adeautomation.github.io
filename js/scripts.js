@@ -259,18 +259,15 @@ for(var i = 0; i < keys.length; i++) {
 	} 
 }
 
-
-
-
-
-
+}
 
 
 
 /**
 This function uses switch-case method to peform arithmetic operations and validate input
 **/
-function calculate(){
+function doCalculation()
+{
 
 
 var a = document.getElementById("num1").value;
@@ -312,12 +309,4 @@ default:
 }
 
 document.getElementById("result").value = result;
-}
-
-
-
-
-
-
-
 }

@@ -41,8 +41,7 @@ body
     float:right;
 	font-size:40px;
  }
-
-
+ 
 
 	  	
 #topnav 
@@ -101,7 +100,6 @@ body
  }
 
 
-	
 	
 #content1                           
  {
@@ -176,6 +174,16 @@ body
  }
  
  
+ 
+ #loopgame p::first-letter
+ {
+  font-size: 200%;
+  color: #8C2332;			
+ }
+ 
+ 
+ 
+ 
 #loopgame input[type=text]       
  {
 	width: 20%;
@@ -186,15 +194,8 @@ body
  }
 
 
-
-#campustour		
- {
-	clear:both;
- }
  
- 
-
-#loopgame button
+ #loopgame button
  {
 	width: 20%;
 	padding: 12px 20px;
@@ -206,6 +207,53 @@ body
  }
 
  
+ 
+  #demo 
+ {
+
+	color:#fff;
+	background-color:#2090ac;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding:8px 8px;
+	font-size:16px;
+ }
+
+ 
+ 
+ 
+
+#campustour		
+ {
+	clear:both;
+ }
+ 
+ 
+ 
+ #campustour p::first-letter
+ {
+  font-size: 200%;
+  color: #8C2332;			
+ }
+ 
+ 
+ 
+ #youtube		
+ {
+	float:left;
+ }
+ 
+ 
+ 
+ #youtubemessage		
+ {
+	float:right;
+	width:320px;
+	margin-bottom:100px;
+ }
+ 
+
+
  
  #footer                             
  {
@@ -342,7 +390,7 @@ login Page starts here
  #logincontent p.error
  {  
    padding:12px;
-   border-left:5px solid #f5c6cb;
+   border-left:5px solid red;
    color: #721c24;
    background-color: #f8d7da;
    border-color: #f5c6cb;
@@ -373,6 +421,7 @@ Register Page starts here
 #registercontent h1               
  {
 	font-size:40px;
+	margin-top:80px;
  }
 	
 
@@ -426,8 +475,31 @@ Register Page starts here
 	
 
 
-#contactform input[type=submit], [type=reset]
+ 
+ #regsubmitpanel
  {
+	clear:both;
+ }
+ 
+ 
+ 
+ #regsubmitpanel [type=submit]
+ {
+	float:left;
+	width: 20%;
+	padding: 12px 20px;
+	margin: 8px 0 8px 0px;
+	color:black;
+	background-color:#ccc;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+ }
+ 
+ 
+ 
+ #regsubmitpanel [type=reset]
+ {
+	float:right;
 	width: 20%;
 	padding: 12px 20px;
 	margin: 8px 0 8px 180px;
@@ -436,7 +508,7 @@ Register Page starts here
 	border: 1px solid #ccc;
 	border-radius: 4px;
  }
-
+ 
  
 
 #contactform fieldset
@@ -599,6 +671,15 @@ Calculator Page starts here
 	font-size: 14px;
 	margin-bottom:20px;		
  }
+	
+	
+#calculatorcontent1 p::first-letter
+ {
+  font-size: 200%;
+  color: #8C2332;			
+ }
+ 	
+	
 	
 	
 	
