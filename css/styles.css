@@ -178,8 +178,16 @@ body
  #loopgame p::first-letter
  {
   font-size: 200%;
-  color: #8C2332;			
+  color: #8C2332;  
  }
+ 
+ 
+ 
+  #loopgame p
+ {
+  text-indent:20px;  
+ }
+ 
  
  
  
@@ -233,7 +241,7 @@ body
  #campustour p::first-letter
  {
   font-size: 200%;
-  color: #8C2332;			
+  color: #8C2332;  
  }
  
  
