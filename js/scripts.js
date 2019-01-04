@@ -2,16 +2,25 @@
 
 
 /**
-INDEX PAGE - This function is used in the loop game to display multiplication table for input numbers
+INDEX PAGE - This function is used in the loop game to display multiplication table for input numbers and validate input fields
 **/
-
-
   function add()
  {
   var x = parseInt(document.getElementById("x").value);
   var y = parseInt(document.getElementById("y").value);
-  
+  var xField = document.getElementById("x").value;
+  var yField = document.getElementById("y").value;
   var totalOutput = "";
+  
+  if (xField == "" || yField == ""|| isNaN(xField) || isNaN(yField)) 
+ {
+		alert("Please enter a number in both fields");
+		return false;
+}
+	
+  
+  
+  
   
   var j = 1;
   for(i = 1; i<= y; i = x*j)
@@ -36,9 +45,7 @@ function validateLoginForm()
 	var password = document.getElementById("password").value;
 	localStorage.setItem("storageName", email);
 	var limit = 20;
-	
-	
-	
+		
 
 if (email == "" || password == "" || email.length > limit) 
     {
@@ -158,10 +165,11 @@ var lastname = document.getElementById("lastname").value;
 var email = document.getElementById("email").value;
 
 
-if (firstname == "" || lastname == "" || email == "") {
+if (firstname == "" || lastname == "" || email == "") 
+{
 		alert("Please ensure you have entered your names and a valid email address");
 		return false;
-	}
+}
 	
 var tel = document.getElementById("tel").value;	
 var regex = /^\d{10}$/;
