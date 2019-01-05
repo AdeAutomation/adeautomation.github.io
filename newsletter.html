@@ -1,0 +1,356 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Application Manager</title>
+		
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		
+			
+		<script src="js/scripts.js"></script>	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/png" href="favicon.ico">
+		
+		<style type="text/css">
+    body {
+		background:#F3F3F3 url(https://picsum.photos/1800/1800?random) no-repeat fixed; 
+    background-size:cover;
+	font-family: Georgia, Arial, serif;
+	}	
+	
+	#wrapper
+ {
+    width:950px;
+    margin:0 auto;
+    padding:20px;
+    background-color:#FFF;
+    min-height:100vh;
+ }
+
+
+#name
+ {
+    width:280px; 
+    float:left; 
+    margin:0px 0 60px 0px; 
+ }
+	 
+
+#name img
+ {
+	float:left;
+ }	 
+
+ 
+#name h1 
+ {
+    float:right;
+	font-size:40px;
+ }
+ 
+
+	  	
+#topnav 
+ {
+	width:550px;
+	float:right;
+	margin:10px 0 0 0px;
+ }
+
+
+
+#topnav ul
+ {
+	text-align:l;
+ }
+
+
+
+#topnav ul li 
+ {
+    display:inline; 
+	margin:0 0 0 30px;
+	float:left
+ }
+
+
+ 
+#topnav a 
+ {  
+	text-decoration:none;
+    font-size:18px;
+    color:#777;
+ }
+ 
+ 
+ 
+#topnav a:link  
+ {
+	color:#777;
+ }
+
+
+
+#topnav a:hover   
+ {   
+	 
+	background-color:#f9f9f9;
+	padding:10px;
+	border-bottom:5px solid #8c2332;
+ }
+
+	
+	
+#topnav .current                    
+ {
+	color:blue;
+ }
+
+ 
+
+ 
+#footer                             
+ {
+	clear:both;
+	height:120px;
+	margin:30px 0 0 0px;
+	background-color:#8c2332;
+	padding:30px 180px;
+ }
+	
+	
+	
+#footer h2                          
+ {
+	float:left;
+	color:#fff;
+	padding:0px 0px 20px 0;
+ }
+
+
+ 
+#footer  i                          
+ {
+	float:left;
+	color:#fff;
+	margin-left: 70px;
+	padding:20px 0px 10px 0;
+ }
+
+	
+#footer  p                          
+ { 
+	color:#fff;
+	text-align:left;
+ }		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.modal-newsletter {	
+		color: #999;
+		font-size: 15px;
+	}
+	.modal-newsletter .modal-content {
+		padding: 40px;
+		border-radius: 0;		
+		border: none;
+	}
+	.modal-newsletter .modal-header {
+		border-bottom: none;   
+        position: relative;
+		text-align: center;
+		border-radius: 5px 5px 0 0;
+	}
+	.modal-newsletter h4 {
+		color: #000;
+		text-align: center;
+		font-size: 30px;
+		margin: 0 0 25px;
+		font-weight: bold;
+		text-transform: capitalize;
+	}
+	.modal-newsletter .close {
+		background: #c0c3c8;
+		position: absolute;
+		top: -15px;
+		right: -15px;
+		color: #fff;
+		text-shadow: none;
+		opacity: 0.5;
+		width: 22px;
+		height: 22px;
+		border-radius: 20px;
+		font-size: 16px;
+	}
+	.modal-newsletter .close span {
+		position: relative;
+		top: -1px;
+	}
+	.modal-newsletter .close:hover {
+		opacity: 0.8;
+	}
+	.modal-newsletter .icon-box {
+		color: #8c2332;		
+		display: inline-block;
+		z-index: 9;
+		text-align: center;
+		position: relative;
+		margin-bottom: 10px;
+	}
+	.modal-newsletter .icon-box i {
+		font-size: 110px;
+	}
+	.modal-newsletter .form-control, .modal-newsletter .btn {
+		min-height: 46px;
+		border-radius: 3px; 
+	}
+	.modal-newsletter .form-control {
+		box-shadow: none;
+		border-color: #8c2332;
+	}
+	.modal-newsletter .form-control:focus {
+		border-color: #8c2332;
+		box-shadow: 0 0 8px rgba(114, 101, 234, 0.5);
+	}
+    .modal-newsletter .btn {
+        color: #fff;
+        border-radius: 4px;
+		background: #8c2332;
+		text-decoration: none;
+		transition: all 0.4s;
+        line-height: normal;
+		padding: 6px 20px;
+		min-width: 150px;
+        border: none;
+    }
+	.modal-newsletter .btn:hover, .modal-newsletter .btn:focus {
+		background: #4e3de4;
+		outline: none;
+	}
+	.modal-newsletter .input-group {
+		margin: 30px 0 15px;
+	}
+	.hint-text {
+		margin: 100px auto;
+		text-align: center;
+	}
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+		
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="name">
+				<a href="index.html"><img src="sitelogo.png" alt="University of Ade"></a>
+				<a href="index.html"><img src="images/uniofade.png" alt="University of Ade"></a>
+			</div>
+			<div id="topnav">
+				<ul>
+				<li><a class="current" href="index.html">Home</a></li>
+				<li><a href="calculator.html">Calculator</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="login.html">My Account</a></li>
+				<ul/>
+			</div>
+			
+			<div id="banner">
+				<img src="images/joinus.jpeg" alt="Person holding white paper" width="850">
+			</div>
+			
+			<div id="newscontent">
+				<h1>
+				Welcome</p><br>
+				</p><br>
+			</div>
+			
+			
+			
+			
+			<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-newsletter">
+		<div class="modal-content">
+			<form action="/examples/actions/confirmation.php" method="post">
+				<div class="modal-header">
+					<div class="icon-box">						
+						<i class="fa fa-envelope-open-o"></i>
+					</div>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></button>
+				</div>
+				<div class="modal-body text-center">
+					<h4>Subscribe to our newsletter</h4>	
+					<p>Join our subscribers list to get the latest news, updates and special offers delivered directly in your inbox.</p>
+					<div class="input-group">
+						<input type="email" class="form-control" placeholder="Enter your email" required>
+						<span class="input-group-btn">
+							<input type="submit" class="btn btn-primary" value="Subscribe">
+						</span>
+					</div>
+				</div>
+			</form>			
+		</div>
+	</div>
+</div>
+<p class="hint-text"><strong>Note:</strong> Please refresh the page or run the code to reload the modal.</p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div id="footer">
+			<div id="follow">
+				<h2>Follow Us:</h2>
+							</div>
+
+				<a href="https://www.facebook.com/rock.master.54" target="_blank" title="Follow us on facebook"><i class="fa fa-facebook-official fa-2x"></a></i>
+				&nbsp
+				<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-twitter fa-2x"></a></i>
+				<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-instagram fa-2x"></a></i><br><br><br>
+				<p>Copyright © 2018 | All Rights Reserved</p>
+			</div>
+		</div>
+	</body>
+</html>
