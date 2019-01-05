@@ -1,137 +1,80 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-	<title>Login</title>
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	
-	<script src="js/scripts.js"></script>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="icon" type="image/png" href="favicon.ico">
-	
-	
-
-<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-	
-
-	
-	<script>
-	$("#loginslideshow > div:gt(0)").hide();
-
-setInterval(function() { 
-  $('#loginslideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#loginslideshow');
-},  3000);
-</script>
-
-</head>
-
-<body onload='loginPageLoad();'>
-<div id="wrapper">
-
-
-<div id="name">
-<a href="index.html"><img src="sitelogo.png" alt="University of Ade"></a>
-<a href="index.html"><img src="images/uniofade.png" alt="University of Ade"></a>
-</div>
-
-
-
-
-<div id="topnav">
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="calculator.html">Calculator</a></li>
-<li><a href="login.html" class="current">Login</a></li>
-<li><a href="register.html">Register</a></li>
-<li><a href="login.html">My Account</a></li>
-<ul/>
-</div>
-
-
-<div id="loginslideshow">
-   <div>
-     <img src="images/Grad.jpg">
-   </div>
-   <div>
-     <img src="images/teach.jpeg" alt="Teach Dice Ornament on Table">
-   </div>
-   <div>
-     <img src="images/university.jpeg">
-   </div>
-</div>
-
-
-
-<div id="logincontent">
-<h1>Login</h1><br>
-<p class="info">To log in, please enter your email address and password.</p>
-<p class="error" style="display:none;">An error occurred while trying to login. Please login with the credentials we emailed you.</p>
-<br><br>
-</div>
-
-
-
-<div id="loginform">
-<form action="myaccount.html" id="cform" method="get" onsubmit="return validateLoginForm() && alphanumeric">
-
-Email Address:<br>
-<input type="email" name="loginemail" id="loginemail" placeholder="Your email address..."><br>
-
-Password:<br>
-<input type="password" name="password" id="password" placeholder="Your password.."><br>
-
-<div id="loginreset">
-<input type="submit" value="Login" id="submit">
-
-<input type="reset" value="Reset" id="reset"><br>
-</div>
-</form>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="footer">
-<h2>Follow Us:</h2>  
-<a href="https://www.facebook.com/rock.master.54" target="_blank" title="Follow us on facebook"><i class="fa fa-facebook-official fa-2x"></a></i>
- &nbsp
-
-<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-twitter fa-2x"></a></i>
-
-<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-instagram fa-2x"></a></i><br><br><br>
-
-<p>Copyright © 2018 | All Rights Reserved</p>
-
-</div>
-
-</div>
-</body>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/png" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<script>
+			$("#loginslideshow > div:gt(0)").hide();
+			
+			setInterval(function() { 
+			 $('#loginslideshow > div:first')
+			   .fadeOut(1000)
+			   .next()
+			   .fadeIn(1000)
+			   .end()
+			   .appendTo('#loginslideshow');
+			},  3000);
+		</script>
+	</head>
+	<body onload='loginPageLoad();'>
+		<div id="wrapper">
+			<div id="name">
+				<a href="index.html"><img src="sitelogo.png" alt="University of Ade"></a>
+				<a href="index.html"><img src="images/uniofade.png" alt="University of Ade"></a>
+			</div>
+			<div id="topnav">
+				<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="calculator.html">Calculator</a></li>
+				<li><a href="login.html" class="current">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="login.html">My Account</a></li>
+				<ul/>
+			</div>
+			<div id="loginslideshow">
+				<div>
+					<img src="images/Grad.jpg">
+				</div>
+				<div>
+					<img src="images/teach.jpeg" alt="Teach Dice Ornament on Table">
+				</div>
+				<div>
+					<img src="images/university.jpeg">
+				</div>
+			</div>
+			<div id="logincontent">
+				<h1>Login</h1>
+				<br>
+				<p class="info">To log in, please enter your email address and password.</p>
+				<p class="error" style="display:none;">An error occurred while trying to login. Please login with the credentials we emailed you.</p>
+				<br><br>
+			</div>
+			<div id="loginform">
+				<form action="myaccount.html" id="cform" method="get" onsubmit="return validateLoginForm() && alphanumeric">
+					Email Address:<br>
+					<input type="email" name="loginemail" id="loginemail" placeholder="Your email address..."><br>
+					Password:<br>
+					<input type="password" name="password" id="password" placeholder="Your password.."><br>
+					<div id="loginreset">
+						<input type="submit" value="Login" id="submit">
+						<input type="reset" value="Reset" id="reset"><br>
+					</div>
+				</form>
+			</div>
+			<div id="footer">
+				<h2>Follow Us:</h2>
+				<a href="https://www.facebook.com/rock.master.54" target="_blank" title="Follow us on facebook"><i class="fa fa-facebook-official fa-2x"></a></i>
+				&nbsp
+				<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-twitter fa-2x"></a></i>
+				<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-instagram fa-2x"></a></i><br><br><br>
+				<p>Copyright © 2018 | All Rights Reserved</p>
+			</div>
+		</div>
+	</body>
 </html>

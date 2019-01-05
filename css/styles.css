@@ -121,12 +121,13 @@ body
 	
 	
 #slideshow 
-{
+ {
 	clear:both;
     margin: 0px auto;
 	position: relative;
-}
+ }
 
+ 
 
 #slideshow > div 
  {
@@ -155,6 +156,7 @@ body
 	text-align:right;
  }
 
+ 
 
 #content3                           
  {
@@ -167,6 +169,7 @@ body
  }
 
 
+ 
 #loopgame
  {
 	float:left;
@@ -187,7 +190,6 @@ body
  {
   text-indent:20px;  
  }
- 
  
  
  
@@ -218,7 +220,6 @@ body
  
   #demo 
  {
-
 	color:#fff;
 	background-color:#2090ac;
 	border: 1px solid #ccc;
