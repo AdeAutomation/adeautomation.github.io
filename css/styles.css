@@ -332,10 +332,45 @@ login Page starts here
  }
 
 
-
+ 
+ 
+ #loginform 
+ {
+	width:450px;
+	float:left;
+ }
+ 
+ 
+ 
+ #tuitionimage
+ {  
+   float:right;
+   width:350px;
+   height:205px;
+   
+  
+   position: relative;
+   text-align: center;
+   color: #0ab3e3;
+   font-size:20px;
+   font-weight:bold;
+ }
+ 
+ 
+ 
+ .bottom-left
+ {
+   position: absolute;
+  bottom: 8px;
+  left: 16px;
+ }
+ 
+ 
+ 
+ 
 #loginform input[type=email], [type=password] 
  {
-	width:50%;
+	width:100%;
 	padding:12px 20px;
 	margin: 8px 0;
 	border: 1px solid #ccc;
@@ -388,7 +423,7 @@ login Page starts here
 
 
 
-#logincontent p
+#logincontent p.success
  {  
    padding:12px;
    background-color:#e6efc2;
@@ -405,8 +440,13 @@ login Page starts here
    border-color: #f5c6cb;
  }
 
-
- 
+ #logincontent p.info {
+	padding:12px;
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+	border-left:5px solid #b8daff;
+ }
 
 a, a:link
  {
@@ -414,6 +454,8 @@ a, a:link
 	margin-left:15px;
  }
 
+ 
+ 
 
 
 

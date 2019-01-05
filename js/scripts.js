@@ -65,10 +65,20 @@ This function identifies invalid login credentials throws an error
 function loginPageLoad() {
 	var url_string = window.location.href;
 	var params = window.location.search.substring(1);
-	var invalidCredentials = params.split("&")[0];
-	if (invalidCredentials) {
+	var paramKeyValue = params.split("&")[0];
+	var paramKey = decodeURIComponent(paramKeyValue.split("=")[0]);
+	var paramValue = decodeURIComponent(paramKeyValue.split("=")[1]);
+	if (paramKey === 'invalidCredentials' && paramValue === 'true') {
 		$('.error').show();
+		$('.success').hide();
 		$('.info').hide();
+	}
+	
+	if (paramKey === 'firstname' && paramValue !== '') {
+		$('#registerSuccessMessage').html('Welcome ' + paramValue + ', Please check your email inbox to complete your registration.');
+		$('.error').hide();
+		$('.success').hide();
+		$('.info').show();
 	}
 }
 
