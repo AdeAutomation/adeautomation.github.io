@@ -46,7 +46,7 @@ function validateLoginForm() {
 
 /**
 This function validates that the password field on login page only accepts alphanumeric inputs
-**/
+ **/
 function alphanumeric() {
 	var regex = /(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,10})$/;
 	var password = document.getElementById("password").value;
@@ -61,7 +61,7 @@ function alphanumeric() {
 
 /**
 This function identifies invalid login credentials throws an error
-**/
+ **/
 function loginPageLoad() {
 	var url_string = window.location.href;
 	var params = window.location.search.substring(1);
@@ -73,7 +73,7 @@ function loginPageLoad() {
 		$('.success').hide();
 		$('.info').hide();
 	}
-	
+
 	if (paramKey === 'firstname' && paramValue !== '') {
 		$('#registerSuccessMessage').html('Welcome ' + paramValue + ', Please check your email for your login details.');
 		$('.error').hide();
@@ -84,7 +84,7 @@ function loginPageLoad() {
 
 /**
 This function validates that the expected login credentials are submitted
-**/
+ **/
 function validateLoginCredentials() {
 
 	var c = "xyzabc";
