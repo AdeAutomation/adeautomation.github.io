@@ -571,7 +571,7 @@ Register Page starts here
 	
 	
 
-#contactform input[type=text], [type=email], [type=tel]
+#contactform input[type=text], [type=email], [type=tel], [type=date]
  {
 	width: 100%;
     padding: 12px 20px;
@@ -654,6 +654,8 @@ Register Page starts here
   background-color:#f3f3f3;
  }
  
+ 
+
  
 
 
