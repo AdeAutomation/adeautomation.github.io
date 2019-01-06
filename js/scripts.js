@@ -75,7 +75,7 @@ function loginPageLoad() {
 	}
 	
 	if (paramKey === 'firstname' && paramValue !== '') {
-		$('#registerSuccessMessage').html('Welcome ' + paramValue + ', Please check your email inbox to complete your registration.');
+		$('#registerSuccessMessage').html('Welcome ' + paramValue + ', Please check your email for your login details.');
 		$('.error').hide();
 		$('.success').hide();
 		$('.info').show();
