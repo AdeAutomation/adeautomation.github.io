@@ -9,6 +9,7 @@ body
     background:#F3F3F3 url(https://picsum.photos/1800/1800?random) no-repeat fixed; 
     background-size:cover;
 	font-family: Georgia, Arial, serif;	
+	line-height:1.7;
  }
 
 
@@ -113,12 +114,17 @@ body
 
 
 #content1 p 
- {
-	color:#777; 
+ { 
 	font-size:16px; 
-	line-height:1.7;
  }
 	
+	
+	
+#content1 p::first-letter
+ {
+  font-size: 200%;
+  color: #8C2332;  
+ }	
 	
 	
 	
@@ -196,40 +202,6 @@ body
  
  
  
-#loopgame input[type=text]       
- {
-	width: 50%;
-	padding: 12px 20px;
-	margin: 8px 0; border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
- }
-
-
- 
-
- 
-  #loopgame button
- {
-	width: 50%;
-	padding: 12px 20px;
-	margin: 8px 0 8px 0px;
-	color:black;
-	background-color:#ccc;
-	border: 1px solid #ccc;
-	border-radius: 4px;
- }
-
- 
- 
- #gameinput button:hover 
- {
-  background-color:#f3f3f3;
- }
- 
- 
- 
- 
   #demo 
  {
 	color:#fff;
@@ -240,16 +212,6 @@ body
 	font-size:16px;
  }
 
- 
- 
- 
- #gameinput
- {
-	width:450px;
-	float:left;
-	margin:100px 0 100px 0;				
- }
- 
  
  
  

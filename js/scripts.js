@@ -46,7 +46,7 @@ function validateLoginForm() {
 
 /**
 This function validates that the password field on login page only accepts alphanumeric inputs
- **/
+**/
 function alphanumeric() {
 	var regex = /(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,10})$/;
 	var password = document.getElementById("password").value;
@@ -61,7 +61,7 @@ function alphanumeric() {
 
 /**
 This function identifies invalid login credentials throws an error
- **/
+**/
 function loginPageLoad() {
 	var url_string = window.location.href;
 	var params = window.location.search.substring(1);
@@ -73,9 +73,9 @@ function loginPageLoad() {
 		$('.success').hide();
 		$('.info').hide();
 	}
-
+	
 	if (paramKey === 'firstname' && paramValue !== '') {
-		$('#registerSuccessMessage').html('Welcome ' + paramValue + ', Please check your email for your login details.');
+		$('#registerSuccessMessage').html('Welcome ' + paramValue + ', Please check your email inbox to complete your registration.');
 		$('.error').hide();
 		$('.success').hide();
 		$('.info').show();
@@ -84,7 +84,7 @@ function loginPageLoad() {
 
 /**
 This function validates that the expected login credentials are submitted
- **/
+**/
 function validateLoginCredentials() {
 
 	var c = "xyzabc";
@@ -149,123 +149,3 @@ function validateForm() {
 
 }
 
-/**
-CALCULATOR PAGE - This function loads the calculator functionality
- **/
-function calculator() {
-	var keys = document.querySelectorAll('#calculator span');
-	var operators = ['+', '-', 'x', 'รท'];
-	var decimalAdded = false;
-
-	// Add onclick event to all the keys and perform operations
-	for (var i = 0; i < keys.length; i++) {
-		keys[i].onclick = function (e) {
-			// Get the input and button values
-			var input = document.querySelector('.screen');
-			var inputVal = input.innerHTML;
-			var btnVal = this.innerHTML;
-
-			// Append the key values (btnValue) to the input string and  get the result. If clear key is pressed, erase everything
-			if (btnVal == 'C') {
-				input.innerHTML = '';
-				decimalAdded = false;
-			}
-
-			// If eval key is pressed, calculate and display the result
-			else if (btnVal == '=') {
-				var equation = inputVal;
-				var lastChar = equation[equation.length - 1];
-
-				// Replace all instances of x and รท  with * and / respectively.
-				equation = equation.replace(/x/g, '*').replace(/รท/g, '/');
-
-				// Check the last character of the equation. If it's an operator or a decimal, remove it
-				if (operators.indexOf(lastChar) > -1 || lastChar == '.')
-					equation = equation.replace(/.$/, '');
-
-				if (equation)
-					input.innerHTML = eval(equation);
-
-				decimalAdded = false;
-			}
-
-			// indexOf works only in IE9+
-			else if (operators.indexOf(btnVal) > -1) {
-				// Operator is clicked
-				// Get the last character from the equation
-				var lastChar = inputVal[inputVal.length - 1];
-
-				// Only add operator if input is not empty and there is no operator at the last
-				if (inputVal != '' && operators.indexOf(lastChar) == -1)
-					input.innerHTML += btnVal;
-
-				// Allow minus if the string is empty
-				else if (inputVal == '' && btnVal == '-')
-					input.innerHTML += btnVal;
-
-				// Replace the last operator (if exists) with the newly pressed operator
-				if (operators.indexOf(lastChar) > -1 && inputVal.length > 1) {
-
-					input.innerHTML = inputVal.replace(/.$/, btnVal);
-				}
-
-				decimalAdded = false;
-			}
-
-			// Add decimal
-			else if (btnVal == '.') {
-				if (!decimalAdded) {
-					input.innerHTML += btnVal;
-					decimalAdded = true;
-				}
-			} else {
-				input.innerHTML += btnVal;
-			}
-
-			// prevent page jumps
-			e.preventDefault();
-		}
-	}
-
-}
-
-/**
-This function uses switch-case method to perform arithmetic operations and validate input
- **/
-function doCalculation() {
-
-	var a = document.getElementById("num1").value;
-	if (a == "" || isNaN(a)) {
-		alert("Please enter a valid number and try again")
-		return false;
-	}
-
-	var b = document.getElementById("num2").value;
-	if (b == "" || isNaN(b)) {
-		alert("Please enter a valid number and try again")
-		return false;
-	}
-
-	var operator = document.getElementById("operator").value;
-
-	switch (operator) {
-	case "+":
-		var result = parseInt(a) + parseInt(b);
-		break;
-
-	case "-":
-		var result = parseInt(a) - parseInt(b);
-		break;
-
-	case "/":
-		var result = parseInt(a) / parseInt(b);
-		break;
-	case "*":
-		var result = parseInt(a) * parseInt(b);
-		break;
-	default:
-		var result = "Operator Not Permitted";
-	}
-
-	document.getElementById("result").value = result;
-}
