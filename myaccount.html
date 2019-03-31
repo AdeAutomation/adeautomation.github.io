@@ -1,21 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
-	<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<title>My Account</title>
-		<link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
-			
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
 		<script src="js/scripts.js"></script>	
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/png" href="favicon.ico">
@@ -37,136 +25,88 @@
 				</div>
 			</div>
 			<div id="banner">
-				<img src="images/graduants.jpeg">
+				<img src="images/graduants.jpeg" alt="Graduating University Students">
 			</div>
-			<div id="timetable">
-				<h1>YOUR WINTER TERM TIME TABLE</h1>
-				<table id="mytable" border="2"  align="center">
-					<tr>
-						 
-						<td align="center">
-							 
-						<td>9:00-10:00
-							 
-						<td>10:00-11:00
-							 
-						<td>11:00-12:00
-							 
-						<td>12:00-13:00
-							 
-						<td>13:30-14:30
-							 
-						<td>14:30-15:30
-							 
-						<td>15:30-16:30
-							 
-						<td>16:30-17:30
-					</tr>
-					<tr>
-						 
-						<td>MONDAY</td>
-						 
-						<td><font color="blue">CS1</td>
-						 
-						<td><font color="green">CS2</td>
-						 
-						<td><font color="red">CS3</td>
-						 
-						<td><font color="purple">CS4</td>
-						 
-						<td rowspan="6" class="break">B<br>R<br>E<br>A<br>K</td>
-						 
-						<td><font color="gray">CS5</td>
-						 
-						<td><font color="brown">CS6</td>
-						 
-						<td>Class Quiz</td>
-					</tr>
-					<tr>
-						 
-						<td>TUESDAY
-							  
-						<td><font color="purple">CS4</td>
-						 
-						<td><font color="green">CS2</td>
-						 
-						<td><font color="red">CS3</td>
-						 
-						<td>---</td>
-						 
-						<td><font color="purple">CS4</td>
-						 
-						<td><font color="gray">CS5</td>
-						 
-						<td>Reading</td>
-					</tr>
-					<tr>
-						 
-						<td>WEDNESDAY </td>
-						 
-						<td><font color="blue">CS1</td>
-						 
-						<td><font color="green">CS2</td>
-						 
-						<td><font color="purple">CS4</td>
-						 
-						<td>---</td>
-						 
-						<td colspan="3" align="center"><font color="green"> laboratory</td>
-					</tr>
-					<tr>
-						 
-						<td>THURSDAY
-							 
-						<td><font color="green">CS2</td>
-						 
-						<td><font color="green">CS2</td>
-						 
-						<td><font color="red">CS3</td>
-						 
-						<td>---</td>
-						 
-						<td><font color="purple">CS4</td>
-						 
-						<td><font color="gray">CS5</td>
-						 
-						<td>Reading</td>
-					</tr>
-					<tr>
-						 
-						<td>FRIDAY</td>
-						 
-						<td><font color="blue">CS1</td>
-						 
-						<td><font color="green">CS2</td>
-						 
-						<td><font color="red">CS3</td>
-						<td><font color="gray">CS5</td>
-						 
-						<td><font color="purple">CS4</td>
-						 
-						<td><font color="gray">CS5</td>
-						 
-						<td>Class Quiz</td>
-					</tr>
-					<tr>
-						 
-						<td>SATURDAY</td>
-						 
-						<td><font color="blue">CS1</td>
-						 
-						<td colspan="3" align="center">Symposium
-							 
-						<td><font color="green">CS2</td>
-						 
-						<td><font color="red">CS3</td>
-						 
-						<td>C/A</td>
-					</tr>
-				</table>
+			<div id="tablecontainer">
+				<h1>Your Winter Term Time Table</h1>
+				<div id="table">
+					<table id="tabledata" border="2">
+						<tr>
+							<td align="center">
+							<td>9:00-10:00
+							<td>10:00-11:00
+							<td>11:00-12:00
+							<td>12:00-13:00
+							<td>13:30-14:30
+							<td>14:30-15:30
+							<td>15:30-16:30
+							<td>16:30-17:30
+						</tr>
+						<tr>
+							<td>MONDAY</td>
+							<td><font color="blue">CS1</td>
+							<td><font color="green">CS2</td>
+							<td><font color="red">CS3</td>
+							<td><font color="purple">CS4</td>
+							<td rowspan="6" class="break">B<br>R<br>E<br>A<br>K</td>
+							<td><font color="gray">CS5</td>
+							<td><font color="brown">CS6</td>
+							<td>Class Quiz</td>
+						</tr>
+						<tr>
+							<td>TUESDAY
+							<td><font color="purple">CS4</td>
+							<td><font color="green">CS2</td>
+							<td><font color="red">CS3</td>
+							<td>---</td>
+							<td><font color="purple">CS4</td>
+							<td><font color="gray">CS5</td>
+							<td>Reading</td>
+						</tr>
+						<tr>
+							<td>WEDNESDAY </td>
+							<td><font color="blue">CS1</td>
+							<td><font color="green">CS2</td>
+							<td><font color="purple">CS4</td>
+							<td>---</td>
+							<td colspan="3" align="center"><font color="green"> laboratory</td>
+						</tr>
+						<tr>
+							<td>THURSDAY
+							<td><font color="green">CS2</td>
+							<td><font color="green">CS2</td>
+							<td><font color="red">CS3</td>
+							<td>---</td>
+							<td><font color="purple">CS4</td>
+							<td><font color="gray">CS5</td>
+							<td>Reading</td>
+						</tr>
+						<tr>
+							<td>FRIDAY</td>
+							<td><font color="blue">CS1</td>
+							<td><font color="green">CS2</td>
+							<td><font color="red">CS3</td>
+							<td><font color="gray">CS5</td>
+							<td><font color="purple">CS4</td>
+							<td><font color="gray">CS5</td>
+							<td>Class Quiz</td>
+						</tr>
+						<tr>
+							<td>SATURDAY</td>
+							<td><font color="blue">CS1</td>
+							<td colspan="3" align="center">Symposium
+							<td><font color="green">CS2</td>
+							<td><font color="red">CS3</td>
+							<td>C/A</td>
+						</tr>
+					</table>
+				</div>
+				<div id="faqimage">		
+					<a href="faq.html"><img src="images/questionmark.jpeg" alt="Coins"></a>
+				</div>
 			</div>
 			<div id="myaccountcontent">
-				<h1>Academic calendar and Deadlines</h1>
+				<h1>Academic Calendar and Deadlines</h1>
 				<br>
 				<h3>January 2019</h3>
 				<p class="cal"><strong>New Year's Day</strong></p>
