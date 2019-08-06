@@ -1,636 +1,508 @@
-*{
+* {
     margin: 0px;
-	padding: 0px;
- }
+    padding: 0px;
+}
 
 
-body
- {
-    background-color:#f3f3f3;
-	font-family: Georgia, Arial, serif;	
-	line-height:1.3;
- }
+body {
+    background-color: #f3f3f3;
+    font-family: Georgia, Arial, serif;
+    line-height: 1.3;
+}
 
 
-#wrapper
- {
-    width:900px;
-    margin:0 auto;
-    padding:30px;
-    background-color:#FFF;
-    min-height:100vh;
- }
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #FFF;
+    min-height: 100vh;
+}
 
 
-#name
- {
-    width:260px; 
-    float:left; 
-    margin:0px 0 60px 0px; 
- }
-	 
-
-#name img
- {
-	float:left;
- }	 
-
- 
-#name h1 
- {
-    float:right;
-	font-size:40px;
- }
- 
-
-	  	
-#topnav 
- {
-	width:550px;
-	float:right;
-	margin:15px 0 0 0px;
- }
+#name {
+    width: 260px;
+    float: left;
+    margin: 0px 0 60px 0px;
+}
 
 
-
-#topnav ul
- {
-	text-align:right;
-	
- }
+#name img {
+    float: left;
+}
 
 
-
-#topnav ul li 
- {
-    display:inline; 
-	margin:0;
- }
+#name h1 {
+    float: right;
+    font-size: 40px;
+}
 
 
- 
-#topnav a 
- {  
-	text-decoration:none;
-    font-size:18px;
-    color:#777;
-	padding:10px;
- }
- 
- 
- 
-#topnav a:link  
- {
-	color:#777;
- }
+#topnav {
+    width: 550px;
+    float: right;
+    margin: 15px 0 0 0px;
+}
 
 
+#topnav ul {
+    text-align: right;
 
-#topnav a:hover   
- {   
-	 
-	background-color:#f9f9f9;
-	padding:10px;
-	border-bottom:5px solid #02213C;
- }
-
-	
-	
-#topnav .current                    
- {
-	color:blue;
- }
+}
 
 
-	
-#content1                           
- {
-	clear:both; 
-	margin:350px 0 0 0px; 
-	padding:20px 0 0 0;
- }
-	
+#topnav ul li {
+    display: inline;
+    margin: 0;
+}
 
 
-#content1 p 
- { 
-	font-size:16px; 
- }
-	
-	
-	
-#content1 p::first-letter
- {
-  font-size: 200%;
-  color: #8C2332;  
- }	
-	
-	
-	
-#slideshow 
- {
-	clear:both;
+#topnav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #777;
+    padding: 10px;
+}
+
+
+#topnav a:link {
+    color: #777;
+}
+
+
+#topnav a:hover {
+
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 5px solid #02213C;
+}
+
+
+#topnav .current {
+    color: blue;
+}
+
+
+#homecontent1 {
+    clear: both;
+    margin: 350px 0 0 0px;
+    padding: 20px 0 0 0;
+}
+
+
+#homecontent1 p {
+    font-size: 16px;
+}
+
+
+#homecontent1 p::first-letter {
+    font-size: 200%;
+    color: #8C2332;
+}
+
+
+#slideshow {
+    clear: both;
     margin: 0px auto;
-	position: relative;
- }
+    position: relative;
+}
 
- 
 
-#slideshow > div 
- {
-	position: absolute;
+#slideshow > div {
+    position: absolute;
     top: 10px;
     left: 10px;
     right: 10px;
     bottom: 10px;
- }
- 
- 
-#content2                           
- {
-	width:350px;
-    height:100px;
-    float:left;
-    border:2px solid #8c2332;
-    padding:20px;
-    margin:0 0 50px 0; 
- }
-
- 
- 
-#content2 a
- {
-	text-align:right;
- }
-
- 
-
-#content3                           
- {
-	width:350px;
-    height:100px;
-	float:right;
-	border:2px solid #8c2332;
-	padding:20px;
-	margin:0 0 50px 0;
- }
+}
 
 
- 
-#loopgame
- {
-	clear:both;
-	margin:100px 0 100px 0;				
- }
- 
- 
- 
- #loopgame p::first-letter
- {
-  font-size: 200%;
-  color: #8C2332;  
- }
- 
- 
- 
-  #loopgame p
- {
-  text-indent:20px;  
- }
- 
- 
- 
- 
-  #demo 
- {
-	color:#fff;
-	background-color:#2090ac;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	padding:8px 8px;
-	font-size:16px;
- }
-
- 
- 
- 
- 
- #tuitioncalc
- {  
-   float:right;
-   width:350px;
-   height:205px;
-   
-  
-   position: relative;
-   text-align: center;
-   color: #0ab3e3;
-   font-size:20px;
-   font-weight:bold;
- }
- 
- 
- 
-  #tuitioncalc
- {  
-   float:right;
-   width:350px;
-   height:205px;
-   
-  
-   position: relative;
-   text-align: center;
-   color: #fff;
-   font-size:24px;
-   font-weight:bold;
- }
- 
- 
- 
-#campustour		
- {
-	clear:both;
-	margin-top:120px;
- }
- 
- 
- 
- #campustour p::first-letter
- {
-  font-size: 200%;
-  color: #8C2332;  
- }
- 
- 
- 
- #youtube		
- {
-	float:left;
- }
- 
- 
- 
- #youtubemessage		
- {
-	float:right;
-	width:320px;
-	margin-bottom:100px;
- }
- 
-
- 
- #ourcampus
- {
-	clear:both;
- }
- 
- 
-
- 
- #footer                             
- {
-	clear:both;
-	height:60px;
-	margin:60px 0 0 0px;
-	background-color:#02213C;
-	padding:30px 180px;
- }
-	
-	
-	
-#footer h2                          
- {
-	float:left;
-	color:#fff;
-	padding:10px 0px 0 0;
- }
+#content2 {
+    width: 350px;
+    height: 100px;
+    float: left;
+    border: 2px solid #8c2332;
+    padding: 20px;
+    margin: 0 0 50px 0;
+}
 
 
- 
-#footer  i                          
- {
-	float:left;
-	color:#fff;
-	margin-left: 70px;
-	padding:00px 0px 0 0;
- }
-
-	
-#footer  p                          
- { 
-	color:#fff;
-	text-align:center;
- }	
+#content2 a {
+    text-align: right;
+}
 
 
+#content3 {
+    width: 350px;
+    height: 100px;
+    float: right;
+    border: 2px solid #8c2332;
+    padding: 20px;
+    margin: 0 0 50px 0;
+}
 
+
+#loopgame {
+    clear: both;
+    margin: 100px 0 100px 0;
+}
+
+
+#loopgame p::first-letter {
+    font-size: 200%;
+    color: #8C2332;
+}
+
+
+#loopgame p {
+    text-indent: 20px;
+}
+
+
+#demo {
+    color: #fff;
+    background-color: #2090ac;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 8px;
+    font-size: 16px;
+}
+
+
+#tuitioncalc {
+    float: right;
+    width: 350px;
+    height: 205px;
+
+
+    position: relative;
+    text-align: center;
+    color: #0ab3e3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#tuitioncalc {
+    float: right;
+    width: 350px;
+    height: 205px;
+
+
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#campustour {
+    clear: both;
+    margin-top: 120px;
+}
+
+
+#campustour p::first-letter {
+    font-size: 200%;
+    color: #8C2332;
+}
+
+
+#youtube {
+    float: left;
+}
+
+
+#youtubemessage {
+    float: right;
+    width: 320px;
+    margin-bottom: 100px;
+}
+
+
+#ourcampus {
+    clear: both;
+}
+
+
+#footer {
+    clear: both;
+    height: 60px;
+    margin: 60px 0 0 0px;
+    background-color: #02213C;
+    padding: 30px 180px;
+}
+
+
+#footer h2 {
+    float: left;
+    color: #fff;
+    padding: 10px 0px 0 0;
+}
+
+
+#footer i {
+    float: left;
+    color: #fff;
+    margin-left: 70px;
+    padding: 00px 0px 0 0;
+}
+
+
+#footer p {
+    color: #fff;
+    text-align: center;
+}
 
 
 /*
-login Page starts here
+Services Page starts here
 */
-#loginslideshow
- {
-	clear:both;
-	margin: 0px auto;
-	position: relative;
- }
-
- 
-#loginslideshow > div 
- {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
- }
-
- 
-
-#logincontent h1 
- {
-	font-size:40px;
-	margin-top:350px;
- }
+#loginslideshow {
+    clear: both;
+    margin: 0px auto;
+    position: relative;
+}
 
 
- 
- 
- #loginform 
- {
-	width:450px;
-	float:left;
- }
- 
- 
- 
- #tuitionimage
- {  
-   float:right;
-   width:350px;
-   height:205px;
-   
-  
-   position: relative;
-   text-align: center;
-   color: #0ab3e3;
-   font-size:20px;
-   font-weight:bold;
- }
- 
- 
- 
- .bottom-left
- {
-   position: absolute;
-   bottom: 8px;
-   left: 16px;
- }
- 
- 
- 
- 
-#loginform input[type=email], [type=password] 
- {
-	width:100%;
-	padding:12px 20px;
-	margin: 8px 0;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
- }
+#loginslideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
 
 
-
-#loginform input[type=submit], [type=reset]
- {
-	width:30%;
-	padding:12px 20px;
-	margin: 8px 0;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	background-color:#ccc;
- }
-
- 
- 
- #loginreset
- {
-	float:left;
-	width:450px;
-	margin-bottom:100px;
- }
- 
- 
- 
-  #submit
- {
-	float:left;
- }
- 
- 
- 
- #reset
- {
-	float:right;
- }
- 
- 
- 
- 
-#logincontent
- {
-	clear:both;
- }
+#logincontent h1 {
+    font-size: 40px;
+    margin-top: 350px;
+}
 
 
-
-#logincontent p.success
- {  
-   padding:12px;
-   background-color:#e6efc2;
-   border-left:5px solid #529214;
- }
-
- 
- #logincontent p.error
- {  
-   padding:12px;
-   border-left:5px solid red;
-   color: #721c24;
-   background-color: #f8d7da;
-   border-color: #f5c6cb;
- }
-
- #logincontent p.info {
-	padding:12px;
-    color: #004085;
-    background-color: #cce5ff;
-    border-color: #b8daff;
-	border-left:5px solid #b8daff;
- }
-
-a, a:link
- {
-	color: #2090ac;
-	margin-left:15px;
- }
-
- 
- #loginform [type=submit]:hover, [type=reset]:hover 
- {
-  background-color:#f3f3f3;
- }
- 
+#loginform {
+    width: 450px;
+    float: left;
+}
 
 
- 
- 
+#tuitionimage {
+    float: right;
+    width: 350px;
+    height: 205px;
 
 
-/*
-Register Page starts here
-*/
-#registercontent       
- {
-	clear:both;
- }
+    position: relative;
+    text-align: center;
+    color: #0ab3e3;
+    font-size: 20px;
+    font-weight: bold;
+}
 
- 
 
-#registercontent h1               
- {
-	font-size:40px;
-	margin-top:80px;
- }
-	
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
 
-	
-#contactform select
- {
-	width: 20%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
- }
- 
- 
 
-.dd
- {
-	width: 20%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
- }
-	
-	
-
-#contactform input[type=text], [type=email], [type=tel], [type=date]
- {
-	width: 100%;
+#loginform input[type=email], [type=password] {
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
- }
+}
 
 
-
-#contactform textarea
- {
-	width: 100%;
-	height:180px;
-	padding: 12px 20px;
-	margin: 8px 0;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
- }
-	
+#loginform input[type=submit], [type=reset] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
 
 
- 
- #regsubmitpanel
- {
-	clear:both;
- }
- 
- 
- 
- #regsubmitpanel [type=submit]
- {
-	float:left;
-	width: 20%;
-	padding: 12px 20px;
-	margin: 8px 0 8px 0px;
-	color:black;
-	background-color:#ccc;
-	border: 1px solid #ccc;
-	border-radius: 4px;
- }
- 
- 
- 
- #regsubmitpanel [type=reset]
- {
-	float:right;
-	width: 20%;
-	padding: 12px 20px;
-	margin: 8px 0 8px 180px;
-	color:black;
-	background-color:#ccc;
-	border: 1px solid #ccc;
-	border-radius: 4px;
- }
- 
- 
-
-#contactform fieldset
- {
-	padding:15px;
-	background-color:#f3f3f3;
- }
+#loginreset {
+    float: left;
+    width: 450px;
+    margin-bottom: 100px;
+}
 
 
- 
-  
- #contactform [type=submit]:hover
- {
-  background-color:#f3f3f3;
- }
- 
- 
- 
-   
- #contactform [type=reset]:hover 
- {
-  background-color:#f3f3f3;
- }
- 
- 
+#submit {
+    float: left;
+}
 
 
-	
-	
+#reset {
+    float: right;
+}
+
+
+#logincontent {
+    clear: both;
+}
+
+
+#logincontent p.success {
+    padding: 12px;
+    background-color: #e6efc2;
+    border-left: 5px solid #529214;
+}
+
+
+#logincontent p.error {
+    padding: 12px;
+    border-left: 5px solid red;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+#logincontent p.info {
+    padding: 12px;
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    border-left: 5px solid #b8daff;
+}
+
+a, a:link {
+    color: #2090ac;
+    margin-left: 15px;
+}
+
+
+#loginform [type=submit]:hover, [type=reset]:hover {
+    background-color: #f3f3f3;
+}
+
+
+#equipments {
+    margin-top: 60px;
+
+}
+
+
+/*
+Register Page starts here
+*/
+#registercontent {
+    clear: both;
+}
+
+
+#registercontent h1 {
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+
+#contactform select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.dd {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+#contactform input[type=text], [type=email], [type=tel], [type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+#contactform textarea {
+    width: 100%;
+    height: 180px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+#regsubmitpanel {
+    clear: both;
+}
+
+
+#regsubmitpanel [type=submit] {
+    float: left;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0 8px 0px;
+    color: black;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#regsubmitpanel [type=reset] {
+    float: right;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0 8px 180px;
+    color: black;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#contactform fieldset {
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+
+
+#contactform [type=submit]:hover {
+    background-color: #f3f3f3;
+}
+
+
+#contactform [type=reset]:hover {
+    background-color: #f3f3f3;
+}
+
+
 /*
 About Us Page starts here
 */
-	
-#aboutuscontent1		
- {
-	clear:both;
-	margin-top:50px;	
- }
-	
-	
+
+#aboutuscontent1 {
+    clear: both;
+    margin-top: 50px;
+}
+
+#aboutuscontent2 {
+    margin-top: 100px;
+}
 	
 
 

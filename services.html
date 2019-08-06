@@ -1,108 +1,160 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-	<head>
-		<title>Login</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="js/scripts.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="icon" type="image/png" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-		<script>
-			$("#loginslideshow > div:gt(0)").hide();
-			
-			setInterval(function() { 
-			 $('#loginslideshow > div:first')
-			   .fadeOut(1000)
-			   .next()
-			   .fadeIn(1000)
-			   .end()
-			   .appendTo('#loginslideshow');
-			},  3000);
-		</script>
-	</head>
-	<body onload='loginPageLoad();'>
-		<div id="wrapper">
-			<div id="name">
-				<a href="index.html"><img src="images/feadlogo1.png" alt="Site logo"></a>
-			</div>
-			<div id="topnav">
-				<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="aboutus.html">About Us</a></li>
-				<li><a href="login.html" class="current">Services</a></li>
-				<li><a href="register.html">Register</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
-				</ul>
-			</div>
-			<div id="loginslideshow">
-				<div>
-					<img src="images/Grad.jpg" alt="Graduating students throwing their hats up">
-				</div>
-				<div>
-					<img src="images/teach.jpeg" alt="Teach Dice Ornament on Table">
-				</div>
-				<div>
-					<img src="images/university.jpeg" alt="A white and blue building">
-				</div>
-			</div>
-			<div id="logincontent">
-			  <h1>Our Services</h1>
-				<br>
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script>
+        $("#loginslideshow > div:gt(0)").hide();
 
-<ul> 
-                <li>We offer services that improve schools in African countries, upgrading them to international standards by providing professional development for teachers and school leaders.</li>
-                <li>We provide models of effective instructions and support for teachers.</li>
-                <li>We purchase new books, supplies and technical equipment for schools and new training programs for teachers and leaders to improve instruction.<br>
-                		</li>
-                <li>We hold meetings with proprietors, school managers and teachers to discuss and improve performance<br>
-                		</li>
-                <li>We review and develop curriculum that meet today’s educational needs.</li> 
-                </ul>
-<br><br>
-                
-                  <h2>School Improvement</h2>
-                  <p>&nbsp;</p>
-              <ul> 
-                <li>Developing  a rigorous standard based curriculum.</li>
-                <li>Promote  effective teaching in every classroom
-      </li><li>Develop  strong home, school and community partnerships.<br>
-      </li>
-                <li>Promote a culture and climate that promotes learning<br>
-                </li>
-                <li>Assist the Proprietor develop a school-wide assessment framework and  organizational structures that promote effective learning.</li> 
-                </ul>
-<br><br>
+        setInterval(function () {
+            $('#loginslideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#loginslideshow');
+        }, 3000);
+    </script>
+</head>
+<body onload='loginPageLoad();'>
+<div id="wrapper">
+    <div id="name">
+        <a href="index.html"><img src="images/feadlogo1.png" alt="Site logo"></a>
+    </div>
+    <div id="topnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="login.html" class="current">Services</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div id="loginslideshow">
+        <div>
+            <img src="images/Grad.jpg" alt="Graduating students throwing their hats up">
+        </div>
+        <div>
+            <img src="images/teach.jpeg" alt="Teach Dice Ornament on Table">
+        </div>
+        <div>
+            <img src="images/university.jpeg" alt="A white and blue building">
+        </div>
+    </div>
+    <div id="logincontent">
+        <h1>Our Services</h1>
+        <br>
 
-<h2>Study Abroad</h2>
-<p>&nbsp;</p>
-This program is designed to help students and their families seek admission into colleges abroad. Each step is personalized to help the student find the "best fit" college that will meet the needs and priorities of the students, and to demonstrate their uniqueness in the application process. 
-We counsel students through personality and career assessments, organize and assist them in creating a timeline of the college process, develop an appropriate college list, provide specific help with course selection, applications, essays, interviews, and preparation for visas
-<br><br>
+        <ul>
+            <li>We offer services that improve schools in African countries, upgrading them to international standards
+                by providing professional development for teachers and school leaders.
+            </li>
+            <li>We provide models of effective instructions and support for teachers.</li>
+            <li>We purchase new books, supplies and technical equipment for schools and new training programs for
+                teachers and leaders to improve instruction.<br>
+            </li>
+            <li>We hold meetings with proprietors, school managers and teachers to discuss and improve performance<br>
+            </li>
+            <li>We review and develop curriculum that meet today’s educational needs.</li>
+            <li>Education counselling and Study Abroad programs</li>
+            <li>We fix school’s systemic problems, improve the learning environment, train the faculty and advise
+                administrators
+            </li>
+        </ul>
+        <br><br>
+
+        <h2>School Improvement</h2>
+
+        <ul>
+            <li>Developing a rigorous standard based curriculum.</li>
+            <li>Promote effective teaching in every classroom
+            </li>
+            <li>Develop strong home, school and community partnerships.<br>
+            </li>
+            <li>Promote a culture and climate that promotes learning<br>
+            </li>
+            <li>Assist the Proprietor develop a school-wide assessment framework and organizational structures that
+                promote effective learning.
+            </li>
+
+        </ul>
+        <br><br>
+
+        <h2>Study Abroad</h2>
+        <p>
+            This program is designed to help students and their families seek admission into colleges abroad. Each step
+            is personalized to help the student find the "best fit" college that will meet the needs and priorities of
+            the students, and to demonstrate their uniqueness in the application process.
+            We counsel students through personality and career assessments, organize and assist them in creating a
+            timeline of the college process, develop an appropriate college list, provide specific help with course
+            selection, applications, essays, interviews, and preparation for visas</p>
+        <br><br>
+
+        <h2>Pedagogy and Classroom Management </h2>
+        <p>We provide Professional Developments and Innovative Training for teachers geared towards
+            increasing students’ activity, engagement and productivity in the classrooms
+        </p><br><br>
+
+        <h2>Staff Evaluation </h2>
+        <p>For accountability, any organizations must have clear, concise, relevant and easily understood methods of
+            evaluating the employees at all levels and in all roles. We use innovative techniques of evaluating teachers
+            for better performance in a teaching and learning environment.
+        </p>
+
+    </div>
 
 
-          </div>
-                
-                
-			
-			<div id="equipments">
-				<h2>&nbsp;</h2>
-			  <h2>See some of the equipments we can purchase for your schools</h2>
-			  <h2><br>
-			  		<img src="images/equipment1.jpg" alt="Brown Concrete Building"><br><br>
-			  		<img src="images/equipment2.jpg" alt="A university campus">			</h2>
-			</div>
-			
+    <div id="equipments">
 
-			<div id="footer">
-				<h2>Follow Us:</h2>
-				<a href="https://www.facebook.com/rock.master.54" target="_blank" title="Follow us on facebook"><i class="fa fa-facebook-official fa-2x"></a></i>
-				&nbsp
-				<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-twitter fa-2x"></a></i>
-				<a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-instagram fa-2x"></a></i><br><br><br>
-				<p>Copyright © 2018 | All Rights Reserved</p>
-			</div>
-		</div>
-	</body>
+        <h2>See some of the equipments we can purchase for your schools</h2>
+
+        <br>
+
+        <figure>
+            <img src="images/classroom.png" alt="classroom setting">
+            <figcaption>Classroom setting today</figcaption>
+        </figure>
+        <br><br>
+
+        <figure>
+            <img src="images/equipment2.jpg" alt="A university campus">
+            <figcaption>Modern classroom</figcaption>
+        </figure>
+        <br><br>
+
+        <figure>
+            <img src="images/elementary%20classroom.png" alt="classroom setting">
+            <figcaption>Elementary school setting</figcaption>
+        </figure>
+        <br><br>
+
+        <figure>
+            <img src="images/High%20school%20setting.png" alt="classroom setting">
+            <figcaption>High school setting</figcaption>
+        </figure>
+        <br><br>
+
+    </div>
+
+
+    <div id="footer">
+        <h2>Follow Us:</h2>
+        <a href="https://www.facebook.com/rock.master.54" target="_blank" title="Follow us on facebook"><i
+                class="fa fa-facebook-official fa-2x"></a></i>
+        &nbsp
+        <a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i
+                class="fa fa-twitter fa-2x"></a></i>
+        <a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i
+                class="fa fa-instagram fa-2x"></a></i><br><br><br>
+        <p>Copyright © 2018 | All Rights Reserved</p>
+    </div>
+</div>
+</body>
 </html>
