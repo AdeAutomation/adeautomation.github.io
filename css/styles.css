@@ -498,14 +498,26 @@ About Us Page starts here
 #aboutuscontent1 {
     clear: both;
     margin-top: 50px;
+
 }
 
 #aboutuscontent2 {
     margin-top: 100px;
+
 }
-	
+
+#aboutuscontent2 h2 {
+    text-align: center;
+
+}
 
 
+#aboutuscontent2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
  
 
 		
