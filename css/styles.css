@@ -78,16 +78,20 @@ body {
 }
 
 
+
 #topnav .current {
     color: blue;
 }
 
 
+
 #homecontent1 {
     clear: both;
-    margin: 350px 0 0 0px;
-    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 350px 0px 100px 0px;
+    padding: 20px 0px 0px 0px;
 }
+
 
 
 #homecontent1 p {
@@ -97,7 +101,7 @@ body {
 
 #homecontent1 p::first-letter {
     font-size: 200%;
-    color: #8C2332;
+    color: #06213c;
 }
 
 
@@ -117,95 +121,9 @@ body {
 }
 
 
-#content2 {
-    width: 350px;
-    height: 100px;
-    float: left;
-    border: 2px solid #8c2332;
-    padding: 20px;
-    margin: 0 0 50px 0;
-}
-
-
-#content2 a {
-    text-align: right;
-}
-
-
-#content3 {
-    width: 350px;
-    height: 100px;
-    float: right;
-    border: 2px solid #8c2332;
-    padding: 20px;
-    margin: 0 0 50px 0;
-}
-
-
-#loopgame {
+#youtubeheader {
     clear: both;
-    margin: 100px 0 100px 0;
-}
-
-
-#loopgame p::first-letter {
-    font-size: 200%;
-    color: #8C2332;
-}
-
-
-#loopgame p {
-    text-indent: 20px;
-}
-
-
-#demo {
-    color: #fff;
-    background-color: #2090ac;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 8px 8px;
-    font-size: 16px;
-}
-
-
-#tuitioncalc {
-    float: right;
-    width: 350px;
-    height: 205px;
-
-
-    position: relative;
-    text-align: center;
-    color: #0ab3e3;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-#tuitioncalc {
-    float: right;
-    width: 350px;
-    height: 205px;
-
-
-    position: relative;
-    text-align: center;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-
-#campustour {
-    clear: both;
-    margin-top: 120px;
-}
-
-
-#campustour p::first-letter {
-    font-size: 200%;
-    color: #8C2332;
+    margin-bottom: 20px;
 }
 
 
@@ -217,7 +135,13 @@ body {
 #youtubemessage {
     float: right;
     width: 320px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+}
+
+
+#youtubemessage1 {
+    clear: both;
+    width: 100%;
 }
 
 
@@ -323,20 +247,6 @@ Services Page starts here
 }
 
 
-#logincontent p.success {
-    padding: 12px;
-    background-color: #e6efc2;
-    border-left: 5px solid #529214;
-}
-
-
-#logincontent p.error {
-    padding: 12px;
-    border-left: 5px solid red;
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-}
 
 #logincontent p.info {
     padding: 12px;
@@ -492,8 +402,6 @@ About Us Page starts here
 }
 
 
-
-
 /*
    Contact Us age starts here
     */
@@ -506,12 +414,9 @@ About Us Page starts here
 }
 
 
-
-
 #contactuscontent {
     margin: 50px 00px 0px 0px;
 }
-
 
 
 #contactuscontent1 {
@@ -531,14 +436,11 @@ About Us Page starts here
 }
 
 
-
-
 .mailmunch-forms-widget-902328 {
     float: right;
     width: 40%;
     height: 300px;
 }
-
 
 
 #contactform select {
@@ -550,8 +452,6 @@ About Us Page starts here
     border-radius: 4px;
     box-sizing: border-box;
 }
-
-
 
 
 #contactform input[type=text], [type=email], [type=tel], [type=date] {
@@ -573,7 +473,6 @@ About Us Page starts here
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 
 
 #submitpanel [type=submit] {
@@ -617,28 +516,6 @@ About Us Page starts here
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 Footer starts here
 */
@@ -661,8 +538,7 @@ Footer starts here
 }
 
 
-
-#icons{
+#icons {
     float: left;
     height: 50px;
     width: 300px;
@@ -670,19 +546,16 @@ Footer starts here
 }
 
 
-
-#copyright{
+#copyright {
     clear: both;
     height: 30px;
 }
 
-#copyright p{
+#copyright p {
     text-align: center;
     color: white;
 
 }
-
-
 
 
 #footer h2 {
