@@ -226,34 +226,6 @@ body {
 }
 
 
-#footer {
-    clear: both;
-    height: 60px;
-    margin: 60px 0 0 0px;
-    background-color: #02213C;
-    padding: 30px 180px;
-}
-
-
-#footer h2 {
-    float: left;
-    color: #fff;
-    padding: 10px 0px 0 0;
-}
-
-
-#footer i {
-    float: left;
-    color: #fff;
-    margin-left: 70px;
-    padding: 00px 0px 0 0;
-}
-
-
-#footer p {
-    color: #fff;
-    text-align: center;
-}
 
 
 /*
@@ -518,10 +490,217 @@ About Us Page starts here
     margin-right: auto;
 
 }
- 
 
-		
-		
+
+
+
+/*
+   Contact Us age starts here
+    */
+
+
+#contactusbanner {
+    clear: both;
+    height: 329px;
+    margin-bottom: 50px;
+}
+
+
+
+
+#contactuscontent {
+    margin-bottom: 50px;
+}
+
+
+
+#contactuscontent1 {
+    clear: both;
+
+}
+
+
+#contactform {
+    float: left;
+    width: 50%;
+}
+
+
+#cform {
+    margin-bottom: 120px;
+}
+
+
+
+
+.mailmunch-forms-widget-902328 {
+    float: right;
+    width: 40%;
+    height: 300px;
+}
+
+
+
+#contactform select {
+    width: 30%;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+#contactform input[type=text], [type=email], [type=tel], [type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+#contactform textarea {
+    width: 100%;
+    height: 180px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+#submitpanel [type=submit] {
+    float: left;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0 8px 0px;
+    color: black;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#submitpanel [type=reset] {
+    float: right;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0 8px 180px;
+    color: black;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#contactform fieldset {
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+
+
+#contactform [type=submit]:hover {
+    background-color: #f3f3f3;
+}
+
+
+#contactform [type=reset]:hover {
+    background-color: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Footer starts here
+*/
+
+#footer {
+    clear: both;
+    height: 60px;
+    margin: 60px 0 0 0px;
+    background-color: #02213C;
+    padding: 50px 10px;
+}
+
+
+#followus {
+
+    float: left;
+    height: 50px;
+    width: 150px;
+    margin: 0px 0px 0px 250px;
+}
+
+
+
+#icons{
+    float: left;
+    height: 50px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+
+
+#copyright{
+    clear: both;
+    height: 30px;
+}
+
+#copyright p{
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+#footer h2 {
+    float: right;
+    color: #fff;
+    padding: 10px 0px 0 0;
+}
+
+
+#footer a {
+    float: left;
+    color: #fff;
+    margin-left: 25px;
+}
+
+
+
+
+
 		
 
 	
