@@ -509,7 +509,7 @@ About Us Page starts here
 
 
 #contactuscontent {
-    margin-bottom: 50px;
+    margin: 50px 00px 0px 0px;
 }
 
 
@@ -603,6 +603,7 @@ About Us Page starts here
 #contactform fieldset {
     padding: 15px;
     background-color: #f3f3f3;
+    margin-top: 50px;
 }
 
 
