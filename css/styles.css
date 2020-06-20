@@ -167,13 +167,13 @@ Services Page starts here
 }
 
 
-#logincontent h1 {
-    font-size: 40px;
+#servicescontent h1 {
+
     margin-top: 350px;
 }
 
 
-#logincontent {
+#servicescontent {
     clear: both;
 }
 
@@ -182,8 +182,6 @@ Services Page starts here
     margin-top: 60px;
 
 }
-
-
 
 
 /*
