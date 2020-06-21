@@ -168,13 +168,16 @@ Services Page starts here
 
 
 #servicescontent h1 {
-
-    margin-top: 350px;
+    margin-top: 0px;
 }
 
 
 #servicescontent {
     clear: both;
+    margin-top: 30px;
+}
+#servicescontent ul{
+    padding-left: 20px;
 }
 
 
@@ -522,7 +525,7 @@ img {
     }
 
     #topnav a {
-        padding: 10px;
+        padding: 10px 6px;
         font-size: 16px;
     }
 
