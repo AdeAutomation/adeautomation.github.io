@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FEAD | Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/ico" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/newsletter.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- SEO -->
+    <link rel="canonical" href="https://www.feadconsulting.com/" />
+    <meta name="description" content="Fead, Fead Consulting, Contact Fead, Education, Consultancy, Services, Consultancy Services, Math, Tutoring, Math Tutoring" />
+    <meta property="og:description" content="Fead, Fead Consulting, COntact Fead, Education, Consultancy, Services, Consultancy Services, Math, Tutoring, Math Tutoring" />
+    <link rel="canonical" href="https://www.feadconsulting.com/" />
+    <meta property="og:url" content="https://www.feadconsulting.com/" />
+    <meta property="og:site_name" content="Fead" />
+</head>
+
+<body>
+ 
+    <!-- new navbar -->
+    <section id="showcase">
+        <nav  id="navbar">
+            <div class="nav-wrapper">
+                <a href="./index.html" class="brand-logo"><img src="./img/feadnewlogo.png" alt="" /></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="./team.html">TEAM</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="./math.html">MATH TUTORING</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li>
+                <a href="./about.html">ABOUT US</a>
+            </li>
+            <li>
+                <a href="./team.html">TEAM</a>
+            </li>
+            <li>
+                <a href="./services.html">SERVICES</a>
+            </li>
+            <li>
+                <a href="./math.html">MATH TUTORING</a>
+            </li>
+            <li>
+                <a href="./contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </section>
+    <!-- new navbar ends here -->
+
+    <!-- new contact section starts here -->
+    <section id="contact">
+        <div class="container">
+            <h4>Contact Us</h4>
+            <div class="row">
+                <div class="col-md-8 form-move">
+                    <p id="have-question">Have a question? Please complete the contact form below and we shall respond as soon as possible.</p>
+                    <p id="thank-you">Thank you for your interest in Fead Consulting!</p>
+
+                        <form name="myform" id="contact-form" action="https://formspree.io/xaypzjba" method="POST">
+                            <label for="name">Name*</label>
+                            <br>
+                            <input id="name" name="name" type="text" class="control-form name" required />
+                            <br>
+                            <label for="email">Email*</label>
+                            <br>
+                            <input id="email" name="_replyto" type="email" class="control-form name" required />
+                            <br />
+                            <label for="phone">Phone Number*</label>
+                            <br>
+                            <input id="phone" name="tel" type="text" class="control-form phone" required />
+                            <br />
+                            <label for="message">Message*</label>
+                            <br>
+                            <textarea id="message" name="message" class="control-form message" rows="2"></textarea>
+                            <br />
+                            <!-- <input id="submit" type="submit" class="control-form submit" value="SUBMIT" /> -->
+                            <!-- <input type="submit"> -->
+                        </form>
+                        <a href="javascript: submitform()">
+                            <button class="btn-work">SIGN UP</button>
+                        </a>
+                </div>
+                <div class="col-md-4 phone">
+                    <p id="head">PHONE</p>
+                    <P id="move">(917) 627 8063</P>
+                    <!-- <br> -->
+                    <p id="head">EMAIL</p>
+                    <!-- <p id="mail">fadebanjo@feadconsulting.com</p> -->
+                    <p><a href="mailto: fadebanjo@feadconsulting.com">fadebanjo@feadconsulting.com</a></p>
+                    <!-- <br> -->
+                    <P id="head" class="office">MAIN OFFICE</p>
+                    <p id="move">...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new contact section ends here -->
+
+     <!-- new newsletter section -->
+     <section id="choose">
+        <div class="container text-center">
+            <h1>subscribe to our newsletter</h1>
+            <p>
+                Be the first to receive our team's insights, tips and expert advice.
+            </p>
+            <form name="newsletter" action="https://formspree.io/mbjzenvb" method="POST">
+                <input type="email" name="_replyto" placeholder="Enter your Email to subscribe to our newsletter" required >
+                </form>
+                <a href="javascript: submitform()">
+                    <button class="btn-work">SIGN UP</button>
+                </a>
+        </div>
+    </section>
+    <!-- new newsletter section ends here -->
+
+    <!-- footer start -->
+    <section id="footer">
+        <div class="container">
+            <div class="row footer">
+                <div class="container icons">
+                    <a href="https://www.facebook.com/FEAD-Consulting-100498491752367/?view_public_for=100498491752367" target="_blank"><i class="fa fa-facebook"></i></a> 
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a> 
+                    <a href="https://www.linkedin.com/company/my-equity-ideas" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="container">
+                    <p class="copy"> copyright &copy; <script>document.write(new Date().getFullYear())</script>, Fead Educational Consulting</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+
+    <script src="./js/jquery3.4.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/type.js"></script>
+    <script src="./js/smooth-scroll.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+</html>

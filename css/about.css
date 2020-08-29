@@ -1,0 +1,472 @@
+* {
+    font-family: Arial, Helvetica, sans-serif,verdana;
+}
+/* new navbar & background styling strts here */
+#showcase {
+    /* background-image: url('../img/teach.jpeg'); */
+    background-image: url('../img/fead-scrabbleedit2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    /* backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0%;
+    animation-timing-function: ease-in-out; */
+}
+
+/* @keyframes slideBg {
+    0% {
+        background-image: url('../img/Grad.jpg');
+    }
+    50% {
+        background-image: url('../img/learn.jpeg');
+    }
+    100% {
+        background-image: url('../img/library.jpeg');
+    }
+} */
+
+#showcase .brand-logo img {
+    width: 21%;
+    margin-left: 5%;
+}
+
+#navbar {
+    background-color: #856939;
+    height: 150px;
+}
+
+#showcase .right {
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+#showcase nav {
+    box-shadow: 0px 0px 0px 0px !important;
+}
+
+nav .fa-bars {
+    color: #fff !important;
+    font-size: 30px;
+    float: right !important;
+}
+
+#showcase .sidenav li a {
+    text-decoration: none;
+    color: white;
+}
+
+#showcase .right li a {
+    text-decoration: none;
+    position: relative !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 20px;
+    color: white !important;
+    overflow: hidden !important;
+    transition: 0.5s all !important;
+}
+
+#showcase .right li a:before {
+    content: '' !important;
+    width: 30px !important;
+    position: absolute !important;
+    border-bottom: 2px solid white !important;
+    bottom: 0 !important;
+    right: 350px !important;
+    transition: 0.5s all !important;
+}
+
+#showcase li a:hover:before {
+    right: 0 !important;
+}
+
+#showcase nav .sidenav-trigger {
+    float: right !important;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+}
+
+#showcase .sidenav {
+    background-color: #01062c;
+}
+
+#showcase .sidenav {
+    position: fixed;
+    width: 300px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: auto !important;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+#showcase .sidenav li:hover {
+    background-color: #04437a;
+}
+
+#showcase .show-text h3 {
+    font-size: 40px;
+    color: white;
+    margin-top: 13%;
+    margin-left: 6%;
+}
+
+#showcase .show-text h3 span {
+    color: #02213c;
+    font-size: 45px;
+    font-weight: 600;
+}
+/* new navbar & background styling ends here */
+
+/*  about styling starts here*/
+#about {
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+#about .words {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.5;
+    letter-spacing: 2.5px;
+    margin-top: 2rem;
+}
+
+#about .words li {
+    list-style-type: disc;
+    padding-bottom: 10px;
+    font-size: 16px; 
+    color: #02213c;
+}
+
+/* @font-face {
+    font-family: greatvibes;
+    src: url(../font/GreatVibes-Regular.otf)
+}
+@font-face {
+    font-family: alex;
+    src: url(../font/AlexBrush-Regular.ttf);
+}
+@font-face {
+    font-family: allura;
+    src: url(../font/Allura-Regular.otf);
+}
+#about .words h5 {
+    font-size: 50px;
+    font-family: allura;
+} */
+
+#about .words p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about .words .p-1 {
+    margin-top: 5rem;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about .words .p-2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* about card styling */
+
+.cards p {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.cards h5 {
+    padding-top: 20px;
+    font-size: 20px;
+    color: #02213c;
+}
+
+.cards a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cards img {
+    width: 100%;
+    height: 70%;
+}
+
+.words h5 {
+    color: #02213c;
+}
+/* about styling ends here */
+
+/* mission styling starts here */
+
+/* #miss {
+    background-color: #02213c;
+} 
+
+#miss .miss-text {
+    text-align: center!important;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#miss .mission {
+    text-align: center;
+    text-align: center!important;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#miss .mission h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#miss .mission p {
+    font-size: 14px;
+    text-align: justify;
+} */
+
+/* mission styling ends here */
+
+
+@media only screen and (max-width: 768px) {
+
+    #showcase {
+        background-image: url('../img/fead-scrabbleedit2.jpg');
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: absolute;
+        height: 60vh;
+        margin-bottom: -250px;
+    }
+    
+    #showcase .brand-logo img {
+        width: 110%;
+        margin-left: 0;
+    }
+
+    #showcase .show-text h2 {
+        /* margin-top: 13%;
+        margin-left: 6%; */
+        text-align: center;
+        color: #fff;
+        margin-top: 15%;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    .show-text a {
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 10px;
+        border: 1px solid #02213c;
+        border-radius: 10px;
+        color: white;
+        background-color: #02213c;
+    }
+    
+    .show-text a:hover {
+        text-decoration: none;
+        background-color: #253442;
+        border-color: #253442;
+    }
+
+    #about .words {
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 30px;
+        letter-spacing: 2.5px;
+        margin-top: 5rem;
+    }
+    
+    #about .words p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #about .words .p-1 {
+        margin-top: 5rem;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #about .words .p-2 {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* iphone x */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    #showcase {
+        background-image: url('../img/fead-scrabbleedit2.jpg');
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: absolute;
+        height: 60vh;
+        margin-bottom: -250px;
+    }
+    
+    #showcase .brand-logo img {
+        width: 105%;
+        margin-left: 0;
+    }
+
+    #showcase .show-text h2 {
+        /* margin-top: 13%;
+        margin-left: 6%; */
+        text-align: center;
+        color: #fff;
+        margin-top: 15%;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    .show-text a {
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 10px;
+        border: 1px solid #02213c;
+        border-radius: 10px;
+        color: white;
+        background-color: #02213c;
+    }
+    
+    .show-text a:hover {
+        text-decoration: none;
+        background-color: #253442;
+        border-color: #253442;
+    }
+
+    #about .words {
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 30px;
+        letter-spacing: 2.5px;
+        margin-top: 5rem;
+    }
+    
+    #about .words p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #about .words .p-1 {
+        margin-top: 5rem;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #about .words .p-2 {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* iphone 6,7,8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+    #showcase .brand-logo img {
+        width: 105%;
+        margin-left: 0;
+    }
+}
+
+/* iphone 6,7,8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    #showcase .brand-logo img {
+        width: 105%;
+        margin-left: 0;
+    }
+}
+
+/* iphone 6,7,8 plus */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    #showcase .brand-logo img {
+        width: 95%;
+        margin-left: 0;
+    }
+}
+
+/* ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    #showcase {
+        background-image: url('../img/fead-scrabbleedit2.jpg');
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: absolute;
+        height: 60vh;
+        margin-bottom: -250px;
+    }
+
+    #showcase .brand-logo img {
+        width: 50%;
+        margin-left: 100px;
+    }
+}
+

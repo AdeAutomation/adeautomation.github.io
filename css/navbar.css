@@ -1,0 +1,118 @@
+/* new navbar & background styling strts here */
+#showcase {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#showcase .brand-logo img {
+    width: 100%;
+    margin-left: 25%;
+}
+
+#navbar {
+    background-color: #856939;
+    height: 150px;
+}
+
+#showcase .right {
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+#showcase nav {
+    box-shadow: 0px 0px 0px 0px !important;
+}
+
+nav .fa-bars {
+    color: #fff !important;
+    font-size: 30px;
+    float: right !important;
+}
+
+#showcase .sidenav li a {
+    text-decoration: none;
+    color: #02213c;
+}
+
+#showcase .right li a {
+    text-decoration: none;
+    position: relative !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 20px;
+    color: #fff !important;
+    overflow: hidden !important;
+    transition: 0.5s all !important;
+    padding-top: 20px;
+}
+
+#showcase .right li a:before {
+    content: '' !important;
+    width: 30px !important;
+    position: absolute !important;
+    border-bottom: 2px solid #fff !important;
+    bottom: 0 !important;
+    right: 350px !important;
+    transition: 0.5s all !important;
+}
+
+#showcase li a:hover:before {
+    right: 0 !important;
+
+}
+
+#showcase nav .sidenav-trigger {
+    float: right !important;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+}
+
+#showcase .sidenav {
+    background-color: #856939;
+}
+
+#showcase .sidenav {
+    position: fixed;
+    width: 300px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: auto !important;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+#showcase .sidenav li:hover {
+    background-color: #02213c;
+}
+
+#showcase .show-text h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-top: 13%;
+    margin-left: 6%;
+}
+
+#showcase .show-text h3 span {
+    color: rgba(255, 217, 0, 0.808);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* new navbar & background styling ends here */
