@@ -1,0 +1,675 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif, verdana;
+    position: relative;
+}
+
+/* new navbar & background styling strts here */
+#showcase {
+    background-image: url('../img/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#showcase .brand-logo img {
+    width: 21%;
+    margin-left: 5%;
+}
+
+#navbar {
+    background-color: #856939;
+    height: 150px;
+}
+
+#showcase .right {
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+#showcase nav {
+    box-shadow: 0px 0px 0px 0px !important;
+}
+
+nav .fa-bars {
+    color: #fff !important;
+    font-size: 30px;
+    float: right !important;
+}
+
+#showcase .sidenav li a {
+    text-decoration: none;
+    color: white;
+}
+
+#showcase .right li a {
+    text-decoration: none;
+    position: relative !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 20px;
+    color: white !important;
+    overflow: hidden !important;
+    transition: 0.5s all !important;
+}
+
+
+#showcase .right li a:before {
+    content: '' !important;
+    width: 30px !important;
+    position: absolute !important;
+    border-bottom: 2px solid white !important;
+    bottom: 0 !important;
+    right: 350px !important;
+    transition: 0.5s all !important;
+}
+
+#showcase li a:hover:before {
+    right: 0 !important;
+}
+
+#showcase nav .sidenav-trigger {
+    float: right !important;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+}
+
+#showcase .sidenav {
+    background-color: #01062c;
+}
+
+#showcase .sidenav {
+    position: fixed;
+    width: 300px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: auto !important;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+#showcase .sidenav li:hover {
+    background-color: #04437a;
+}
+
+#showcase .show-text h2 {
+    /* margin-top: 13%;
+    margin-left: 6%; */
+    text-align: center;
+    color: #fff;
+    margin-top: 15%;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.show-text a {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #02213c;
+    border-radius: 10px;
+    color: white;
+    background-color: #02213c;
+}
+
+.show-text a:hover {
+    text-decoration: none;
+    background-color: #253442;
+    border-color: #253442;
+}
+
+#showcase .show-text h3 span {
+    color: rgba(255, 217, 0, 0.808);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* new navbar & background styling ends here */
+
+/* main styling starts here */
+
+#main {
+    background-color: #856939;
+    /* margin-bottom: -4vh; */
+}
+#main .main-text {
+    text-align: center!important;
+    padding-top: 10%;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#main .big-sign {
+    text-align: center;
+    color: #02213c8a;
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+
+#main .big-letter {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    color: #02213c;
+}
+
+#main .letterstyle {
+    font-size: 50px;
+    text-align: center!important;
+    letter-spacing: 5px;
+    color: #02213c;
+    line-height: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* main card styling */
+#main .cards {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#main .cards h5{
+    color: #02213c;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#main .cards p{
+    text-align: center;
+}
+
+.cards a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cards img {
+    width: 100%;
+    height: 80%;
+}
+/* main card styling ends here */
+/* main styling ends here */
+
+/* Welcome section styling */ 
+#welcome {
+    padding-top: 3%;
+    padding-bottom: 10vh;
+    margin-bottom: 10vh;
+    height: 80vh;
+}
+
+#youtube iframe {
+    width: 100%;
+    height: 320px;
+    padding-top: 10%;
+}
+
+#welcome .welcome-img img {
+    width: 100%;
+    height: 50vh;
+    /* margin-top: 20px; */
+    /* padding-top: 40px; */
+    padding-right: 40px;
+    position: absolute;
+    /* margin-top: 70px; */
+    margin-top: 10%;
+}
+
+#welcome h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #02213c;
+}
+
+#welcome .drop {
+    padding-top: 15px;
+}
+
+#welcome .welcome-p-1 {
+    padding-top: 10%;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+#welcome .welcome-p-2 {
+    padding-top: 1%;
+    font-size: 16px;
+}
+
+#welcome button {
+    background-color: #02213c;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #showcase {
+        background-image: url('../img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+    
+    #showcase .brand-logo img {
+        width: 110%;
+        margin-left: 0;
+    }
+
+    #showcase .show-text h2 {
+        /* margin-top: 13%;
+        margin-left: 6%; */
+        text-align: center;
+        color: #fff;
+        margin-top: 15%;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    /* .show-text a {
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 10px;
+        border: 1px solid #02213c;
+        border-radius: 10px;
+        color: white;
+        background-color: #02213c;
+    } */
+
+    .show-text a {
+        display: none;
+    }
+    
+    .show-text a:hover {
+        text-decoration: none;
+        background-color: #253442;
+        border-color: #253442;
+    }
+
+    #welcome {
+        padding-top: 3%;
+        padding-bottom: 5vh;
+        margin-bottom: 10vh;
+        height: 80vh;
+    }
+    
+    #youtube iframe {
+        width: 100%;
+        height: 280px;
+        padding-top: 5%;
+    }
+    
+    #welcome h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: 600;
+        color: #02213c;
+    }
+    
+    #welcome .welcome-p-1 {
+        padding-top: 10%;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    
+    #welcome .welcome-p-2 {
+        padding-top: 1%;
+        font-size: 14px;
+    }
+    
+    #main {
+        background-color: #856939;
+        /* margin-bottom: -4vh; */
+    }
+    #main .main-text {
+        text-align: center!important;
+        padding-top: 10%;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+    
+    #main .big-sign {
+        text-align: center;
+        color: #02213c8a;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    
+    #main .letterstyle {
+        font-size: 30px;
+        text-align: center!important;
+        letter-spacing: 5px;
+        color: #02213c;
+        line-height: 40px;
+        padding-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #main .cards {
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 2px;
+        text-align: center;
+    }
+    
+    #main .cards h5{
+        color: #02213c;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    #main .cards p{
+        text-align: center;
+        /* margin-bottom: 10%; */
+    }
+    
+    .cards a:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .cards img {
+        width: 80%;
+        height: 60%;
+    }
+
+    .cardstyle {
+        margin-bottom: 1px;
+    }
+
+}
+
+/* iphone x */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+    #showcase {
+        background-image: url('../img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+
+    #showcase .brand-logo img {
+        width: 105%;
+        margin-left: 0;
+    }
+
+    #showcase .show-text h2 {
+        /* margin-top: 13%;
+        margin-left: 6%; */
+        text-align: center;
+        color: #fff;
+        margin-top: 15%;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    .show-text a {
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 10px;
+        border: 1px solid #02213c;
+        border-radius: 10px;
+        color: white;
+        background-color: #02213c;
+    }
+    
+    .show-text a:hover {
+        text-decoration: none;
+        background-color: #253442;
+        border-color: #253442;
+    }
+}
+
+/* iphone 6,7,8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+    #showcase .brand-logo img {
+        width: 105%;
+        margin-left: 0;
+    }
+}
+
+/* iphone 6,7,8 plus */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    #showcase {
+        background-image: url('../img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+    
+    #showcase .brand-logo img {
+        width: 95%;
+        margin-left: 0;
+    }
+
+    #showcase .show-text h2 {
+        /* margin-top: 13%;
+        margin-left: 6%; */
+        text-align: center;
+        color: #fff;
+        margin-top: 15%;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    .show-text a {
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 10px;
+        border: 1px solid #02213c;
+        border-radius: 10px;
+        color: white;
+        background-color: #02213c;
+    }
+    
+    .show-text a:hover {
+        text-decoration: none;
+        background-color: #253442;
+        border-color: #253442;
+    }
+}
+
+/* ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #showcase {
+        background-image: url('../img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+
+    #showcase .brand-logo img {
+        width: 50%;
+        margin-left: 100px;
+    }
+
+    #showcase .show-text h2 {
+        /* margin-top: 13%;
+        margin-left: 6%; */
+        text-align: center;
+        color: #fff;
+        margin-top: 30%;
+        font-size: 44px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    .show-text a {
+        text-align: center;
+        font-size: 16px;
+        padding: 5px 10px;
+        border: 1px solid #02213c;
+        border-radius: 10px;
+        color: white;
+        background-color: #02213c;
+    }
+    
+    .show-text a:hover {
+        text-decoration: none;
+        background-color: #253442;
+        border-color: #253442;
+    }
+
+    #welcome {
+        padding-top: 3%;
+        padding-bottom: 5vh;
+        margin-bottom: 0vh;
+        height: 45vh;
+    }
+    
+    #youtube iframe {
+        width: 100%;
+        height: 280px;
+        padding-top: 5%;
+    }
+    
+    #welcome h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: 600;
+        color: #02213c;
+    }
+    
+    #welcome .welcome-p-1 {
+        padding-top: 10%;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    
+    #welcome .welcome-p-2 {
+        padding-top: 1%;
+        font-size: 14px;
+    }
+    
+    #main {
+        background-color: #856939;
+        /* margin-bottom: -4vh; */
+    }
+    #main .main-text {
+        text-align: center!important;
+        padding-top: 10%;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+    
+    #main .big-sign {
+        text-align: center;
+        color: #02213c8a;
+        font-size: 34px;
+        padding-bottom: 30px;
+    }
+    
+    #main .letterstyle {
+        font-size: 32px;
+        text-align: center!important;
+        letter-spacing: 5px;
+        color: #02213c;
+        line-height: 40px;
+        padding-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #main .cards {
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    #main .cards h5{
+        color: #02213c;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    #main .cards p{
+        text-align: center;
+        /* margin-bottom: 10%; */
+    }
+    
+    .cards a:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .cards img {
+        width: 80%;
+        height: 60%;
+    }
+
+    .cardstyle {
+        margin-bottom: 1px;
+    }
+}
+
