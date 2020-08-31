@@ -7,3 +7,8 @@ function submitform()
 {
   document.newsletter.submit();
 }
+
+function submitformm()
+{
+  document.ab.submit();
+}
