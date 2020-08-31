@@ -1,4 +1,4 @@
-function submitform()
+function formsubmit()
 {
   document.myform.submit();
 }
