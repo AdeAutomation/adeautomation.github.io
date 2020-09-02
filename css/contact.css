@@ -259,6 +259,11 @@ label {
     color: #fff;
 }
 
+#whats-app {
+    font-size: 24px;
+    color: green;
+}
+
 @media only screen and (max-width: 768px) {
 
     #showcase {
@@ -367,6 +372,8 @@ label {
         margin-top: 20px;
     }
 
+    
+
 }
 
 /* iphone x */
@@ -461,3 +468,4 @@ label {
         width: 50%;
         margin-left: 100px;
 }
+  }

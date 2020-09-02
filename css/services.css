@@ -316,6 +316,7 @@ animation-timing-function: ease-in-out;
         animation: slideBg 8s linear infinite 0s;
         animation-timing-function: ease-in-out;
         margin-bottom: -97%;
+        /* height: 70vh; */
         }
         
         @keyframes slideBg {
@@ -358,7 +359,12 @@ animation-timing-function: ease-in-out;
        margin-top: 15%;
    }
 
+   #work {
+       z-index: 1;
+   }
+
     #work h1 {
+        /* padding-top: 30px; */
         font-size: 18px;
     }
     
