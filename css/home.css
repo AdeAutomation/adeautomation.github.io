@@ -278,7 +278,7 @@ nav .fa-bars {
 @media only screen and (max-width: 768px) {
 
     #showcase {
-        background-image: url('../img/background.jpg');
+        background-image: url('../img/background2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -325,7 +325,7 @@ nav .fa-bars {
     #welcome {
         padding-top: 3%;
         padding-bottom: 5vh;
-        margin-bottom: 10vh;
+        margin-bottom: 15git vh;
         height: 80vh;
     }
     
@@ -427,7 +427,7 @@ nav .fa-bars {
   and (-webkit-min-device-pixel-ratio: 3) { 
     
     #showcase {
-        background-image: url('../img/background.jpg');
+        background-image: url('../img/background2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -488,7 +488,7 @@ nav .fa-bars {
   and (-webkit-min-device-pixel-ratio: 3) { 
 
     #showcase {
-        background-image: url('../img/background.jpg');
+        background-image: url('../img/background2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -536,7 +536,7 @@ nav .fa-bars {
   and (-webkit-min-device-pixel-ratio: 2) {
 
     #showcase {
-        background-image: url('../img/background.jpg');
+        background-image: url('../img/background2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
